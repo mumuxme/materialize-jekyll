@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="post-ribbon"></div>
+
+
+<div class="container">
+  <div class="post card-panel z-depth-2">
+  <div class="post-section">
+    <p class="grey-text">
+      <i class="mdi mdi-calendar"></i>&nbsp;
+      {% if page.date %}{{ page.date | date: "%b %-d, %Y" }}{% else %}unknown{% endif %}
+      &nbsp;&nbsp;<i class="mdi mdi-account-circle"></i>&nbsp;
+      {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
+      &nbsp;&nbsp;<i class="mdi mdi-label"></i>&nbsp;
+      {% if page.category %}<span class="upper-case">{{ page.category }}</span>{% else %}unknown{% endif %}
+      {% if page.update %}&emsp;<i class="mdi mdi-refresh"></i>&nbsp;UPDATE: {{ page.update | date: "%b %-d, %Y" }}{% endif %}
+    </p>
+
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+
+      <i class="post-tag mdi mdi-tag-multiple waves-effect waves-light"></i>
+      {% for tag in page.tags | split:',' %}
+        <div class="chip">{{ tag }}<i class="mdi mdi-close material-icons"></i></div>
+      {% endfor %}
+    </header>
+
+    <article class="post-content">
+      {{ content }}
+    </article>
+
+    {% include share.html %}
+
+  </div>
+  </div>
+</div>

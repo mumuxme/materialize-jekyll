@@ -1,0 +1,218 @@
+/**
+ *
+ */
+
+
+/**
+ * Check
+ */
+.notice-warning {
+    background-color: #E91E63;
+    color: #fff;
+    font-size: 120%;
+    font-weight: bold;
+    left: 0;
+    padding: 7px 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+/**
+ * Site header
+ */
+.site-header {
+    border-bottom: 1px solid $grey-light;
+}
+
+.site-title {
+    font-size: 26px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    margin-left: 42px;
+
+    &,
+    &:visited {
+        color: $grey-dark;
+    }
+}
+
+.nav-wrapper .mdi-apps {
+    color: darken($pink, 15%);
+}
+
+.brand-logo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.brand-logo,
+.dropdown-button {
+    @media #{$small-and-down} {
+        i { line-height: 56px; }    // maybe just a bug, maybe not
+    }
+}
+
+/**
+ * Site post list
+ */
+.modal-footer {
+    a {
+        color: darken($pink, 15%);
+        &:hover { color: $blue; }
+    }
+}
+
+/**
+ * Site pagination
+ */
+.pagination {
+    margin-top: 32px;
+    margin-bottom: 40px;
+
+}
+
+.pagination .page {
+    left: 50%;
+    margin-left: -150px;
+}
+
+
+/**
+ * Site footer
+ */
+.page-footer {
+    ul {
+        margin-left: 0;
+    }
+    li {
+        margin-top: 10px;
+    }
+}
+
+
+/**
+ * Page content
+ */
+.page-heading {
+    margin-top: $spacing-unit;
+}
+
+.favo {
+    letter-spacing: .2em;
+}
+
+
+.post-list {
+    margin-left: 0;
+    margin-top: 32px;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-link {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.post-ribbon {
+    background-color: #aed581;
+    flex-shrink: 0;
+    height: 40vh;
+    width: 100%;
+}
+
+// category
+.post-category {
+    .collection {
+        padding-top: 15px;
+    }
+
+}
+.category-list {
+    margin-top: 32px;
+
+    ul {
+        margin-left: $spacing-unit*2;
+    }
+}
+
+/**
+ * Posts
+ */
+.post {
+    margin-top: -35vh;
+    margin-bottom: 64px;
+    flex-shrink: 0;
+    min-height: 800px;
+}
+
+.post-section {
+    @media #{$small-and-down} { padding: 70px 10px; }
+    @media #{$medium-and-up} { padding: 70px 56px; }
+
+    margin-bottom: 80px;
+}
+
+.post-header {
+    margin-top: $spacing-unit*1.5;
+    margin-bottom: $spacing-unit*1.6;
+
+    .post-tag {
+        font-size: 1.5rem;
+        color: lighten($pink, 10%);
+    }
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @media #{$medium-and-down} {
+        font-size: 36px;
+    }
+}
+
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+        margin-top: 40px;
+
+        @media #{$medium-and-down} {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @media #{$medium-and-down} {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @media #{$medium-and-down} {
+            font-size: 18px;
+        }
+    }
+}
+
+// post share
+.post-share {
+    margin-top: 100px;
+    letter-spacing: .2em;
+}

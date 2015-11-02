@@ -1,0 +1,5 @@
+# ignore file and dir
+
+.sass-cache/
+
+_site

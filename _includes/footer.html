@@ -1,0 +1,32 @@
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About</h5>
+          <p class="grey-text text-lighten-4">
+              "{{ site.description }}"
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            {% if site.github_username %}
+            <li><a href="https://github.com/{{ site.github_username }}" class="text-lighten-3 btn waves-effect waves-light red lighten-3"><i class="mdi mdi-github-circle white-text"></i></a></li>
+            {% endif %}
+            {% if site.googleplus_username %}
+            <li><a href="https://plus.google.com/+{{ site.googleplus_username }}" class="text-lighten-3 btn waves-effect waves-light red lighten-3"><i class="mdi mdi-google-plus white-text"></i></a></li>
+            {% endif %}
+            {% if site.twitter_username %}
+            <li><a href="https://twitter.com/{{ site.twitter_username }}" class="text-lighten-3 btn waves-effect waves-light red lighten-3"><i class="mdi mdi-twitter white-text"></i></a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Copyright © 2015 {{ site.author }}. Powered by <a href="http://jekyllrb.com/">Jekyll</a>.
+      <a class="grey-text text-lighten-4 right waves-effect waves-green" href="mailto:{{ site.email }}">Send email</a>
+      </div>
+    </div>
+  </footer>
