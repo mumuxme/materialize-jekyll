@@ -4,12 +4,12 @@ title: Post Template
 date: 2015-04-01
 update: 2015-10-25
 category: "readme"
-tags: [jekyll, mdl]
+tags: [jekyll, material design]
 author: Lambda
 ---
 
 
-This is a template of the post. You can find all valid settings from here.
+This is a template of the post.
 
 
 ## Post's YAML
@@ -46,5 +46,16 @@ This is a template of the post. You can find all valid settings from here.
 
 So, if you want to avoid syntax conflicts, you can use {% raw %}`{% raw %}`{% endraw %}
 
+(More liquid syntax, see [Liquid-for-Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers))
 
 ### Markdown
+
+Besides the traditional markdown, you can use some extensions. See the following in `_config.yml`
+
+```
+markdown: redcarpet
+redcarpet:
+  extensions: ["fenced_code_blocks", "superscript"]
+```
+
+(More detail, see <https://github.com/vmg/redcarpet>)

@@ -73,11 +73,11 @@
     margin-top: 32px;
     margin-bottom: 40px;
 
-}
-
-.pagination .page {
-    left: 50%;
-    margin-left: -150px;
+    .page {
+        // center the item (waitting other elegant method)
+        left: 50%;
+        margin-left: -10.1em;
+    }
 }
 
 
@@ -120,6 +120,12 @@
     display: block;
     font-size: 1.5em;
     margin-bottom: 10px;
+
+    color: $pink;
+
+    &:hover {
+        color: $blue;
+    }
 }
 
 .post-ribbon {
@@ -136,11 +142,33 @@
     }
 
 }
+
 .category-list {
     margin-top: 32px;
+    
+    .title {
+        margin-top: 0;
+    }
 
     ul {
-        margin-left: $spacing-unit*2;
+        margin-bottom: 10px;
+    }
+
+    @media #{$medium-and-up} {
+        ul {
+            margin-left: $spacing-unit*2;
+        }
+    
+        .category-link {
+            transition: padding-left 0.25s;
+            -webkit-transition: padding-left 0.25s;
+            -moz-transition: padding-left 0.25s;
+            -o-transition: padding-left 0.25s;
+    
+            &:hover {
+                padding-left: 20px;
+            }
+        }
     }
 }
 
@@ -155,10 +183,14 @@
 }
 
 .post-section {
-    @media #{$small-and-down} { padding: 70px 10px; }
-    @media #{$medium-and-up} { padding: 70px 56px; }
-
-    margin-bottom: 80px;
+    @media #{$small-and-down} {
+        padding: 70px 0px;
+    }
+    
+    @media #{$medium-and-up} {
+        padding: 70px 56px;
+        margin-bottom: 60px;
+    }
 }
 
 .post-header {
@@ -171,43 +203,52 @@
     }
 }
 
+// post title (head 1)
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: 2.8rem;
+    margin: 2.1rem 0 1.68rem;
 
     @media #{$medium-and-down} {
         font-size: 36px;
     }
 }
 
-
+// post content
 .post-content {
     margin-bottom: $spacing-unit;
-
+    
     h2 {
-        font-size: 32px;
-        margin-top: 40px;
+        font-size: 2.2rem;
+        color: #ee6e73;
+        margin: 3.78rem 0 2.424rem;
 
         @media #{$medium-and-down} {
-            font-size: 28px;
+            font-size: 2rem;
         }
     }
 
     h3 {
-        font-size: 26px;
-
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin: 1.68rem 0 1.2rem;
+        
         @media #{$medium-and-down} {
-            font-size: 22px;
+            font-size: 1.7rem;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 1.2rem;
+        font-weight: 500;  
 
         @media #{$medium-and-down} {
-            font-size: 18px;
+            font-size: 1.2rem;
         }
+    }
+
+    strong {
+        font-weight: 500;
+        color: $red;
     }
 }
 

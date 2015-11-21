@@ -10,14 +10,13 @@ permalink: /category/
 
 
 {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-
 {% assign category = categories | split:',' | sort %}
-
 
 <div class="post-category">
 
     <div class="collection hide-on-small-only">
-      {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+    {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+
       {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
       <ul >
         <li>
@@ -30,21 +29,29 @@ permalink: /category/
             </span>
         </li>
       </ul>
-      {% endunless %}{% endfor %}
+    {% endunless %}{% endfor %}
     </div>
+
 
     <div class="category-list">
-      {% for item in (0..site.categories.size) %}{% unless forloop.last %}{% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
+    {% assign color = "red|orange|yellow|green|teal|lime|purple" | split: "|" %}
 
-      <div id="{{ word }}" class="section scrollspy"><h4>{{ word }}</h4></div>
+    {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+    {% assign i = item | modulo: color.size %}
 
-      {% for post in site.categories[word] %}
-      {% if post.title != null %}
-      <ul>
-        <li>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;>>&nbsp;&nbsp;<a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-      </ul>
-      {% endif %}
-      {% endfor %}
-      {% endunless %}{% endfor %}
+      {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
+      <div class="card-panel hoverable {{ color[i] }} lighten-4">
+        <div id="{{ word }}" class="section scrollspy">
+          <h3 class="capitalize title">{{ word }}</h3>
+        </div>
+        {% for post in site.categories[word] %}{% if post.title != null %}
+        <ul>
+          <li>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;>>&nbsp;&nbsp;<a class="category-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        </ul>
+        {% endif %}{% endfor %}
+      </div>
+
+    {% endunless %}{% endfor %}
     </div>
+
 </div>

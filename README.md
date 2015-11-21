@@ -4,7 +4,7 @@ materialize - jekyll
 Introducton
 ---------
 
-This jekyll theme is based on [materialize](http://materializecss.com).
+This jekyll theme is based on [materialize](http://materializecss.com). It's simple, static and following material design.
 
 Start
 ---------

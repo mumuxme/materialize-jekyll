@@ -8,6 +8,7 @@
  */
 
 .material-scrolltop {
+    background: #2ab7a9;
     display: block;
     position: fixed;
     width: 0;
@@ -22,7 +23,6 @@
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     cursor: hand;
     border-radius: 50%;
-    background: $pink;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
     -ms-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
@@ -32,7 +32,7 @@
 }
 
 .material-scrolltop:hover {
-    background-color: $blue;
+    //background-color: $pink;
     text-decoration: none;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5);
 }

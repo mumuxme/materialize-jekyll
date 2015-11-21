@@ -54,14 +54,34 @@ ul, ol, dl, figure,
 /**
  * Text
  */
-strong {
-    font-weight: bold;
-    color: $red;
-}
 
 .lower-case { text-transform: lowercase; }
 .upper-case { text-transform: uppercase; }
 .capitalize { text-transform: capitalize; }
+
+strong {
+    //font-weight: bold;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.71);
+    padding: 0;
+}
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: -1px;
+
+}
+
+hr {
+    margin: 4px 0 8px;
+}
+
 
 /**
  * Images
@@ -100,29 +120,18 @@ li {
 
 
 /**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-}
-
-h3, h4 {
-    margin-top: 26px;
-}
-
-/**
  * Links
  */
 a {
-    color: $pink;
+    color: darken($blue, 10%);
     text-decoration: none;
 
     &:visited {
-        color: darken($pink, 15%);
+        //color: darken($blue, 20%);
     }
 
     &:hover {
-        color: $blue;
+        color: $pink;
         //text-decoration: underline;
     }
 }
@@ -133,7 +142,8 @@ a {
  */
 blockquote {
     color: $grey;
-    border-left: 4px solid $grey-light;
+    background-color: $grey-light;
+    border-left: 4px solid $grey;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
