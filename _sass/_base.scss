@@ -114,7 +114,7 @@ ul, ol {
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -161,7 +161,8 @@ blockquote {
 pre,
 code {
     font-family: $code-font-family;
-    font-size: 15px;
+    font-size: .9rem;
+    color: #000;
     border: 1px solid $grey-light;
     border-radius: 3px;
     background-color: #c8e6c9;
@@ -176,9 +177,11 @@ pre {
     overflow-x: scroll;
 
     > code {
+        font-size: 1rem;
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        display: block;
     }
 }
 

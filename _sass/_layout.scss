@@ -32,7 +32,7 @@
     font-size: 26px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    margin-left: 42px;
+    margin-left: 50px;
 
     &,
     &:visited {
@@ -45,8 +45,7 @@
 }
 
 .brand-logo {
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 0 10px !important;    // replace materialize css
 }
 
 .brand-logo,
@@ -141,32 +140,33 @@
         padding-top: 15px;
     }
 
+    ul li {
+        margin-bottom: 10px;
+        list-style-type: none !important;
+    }
 }
 
 .category-list {
     margin-top: 32px;
-    
+
     .title {
         margin-top: 0;
     }
 
-    ul {
-        margin-bottom: 10px;
-    }
-
     @media #{$medium-and-up} {
+
         ul {
             margin-left: $spacing-unit*2;
         }
-    
+
         .category-link {
             transition: padding-left 0.25s;
             -webkit-transition: padding-left 0.25s;
             -moz-transition: padding-left 0.25s;
             -o-transition: padding-left 0.25s;
-    
+
             &:hover {
-                padding-left: 20px;
+                padding-left: 12px;
             }
         }
     }
@@ -186,7 +186,7 @@
     @media #{$small-and-down} {
         padding: 70px 0px;
     }
-    
+
     @media #{$medium-and-up} {
         padding: 70px 56px;
         margin-bottom: 60px;
@@ -213,12 +213,12 @@
     }
 }
 
-// post content
+// post and page content
 .post-content {
     margin-bottom: $spacing-unit;
-    
+
     h2 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         color: #ee6e73;
         margin: 3.78rem 0 2.424rem;
 
@@ -228,28 +228,37 @@
     }
 
     h3 {
-        font-size: 1.6rem;
+        font-size: 2rem;
         font-weight: 500;
-        margin: 1.68rem 0 1.2rem;
-        
+        margin: 2.68rem 0 1.2rem;
+
         @media #{$medium-and-down} {
-            font-size: 1.7rem;
+            font-size: 1.8rem;
         }
     }
 
     h4 {
-        font-size: 1.2rem;
-        font-weight: 500;  
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin: 1.68rem 0 1rem;
 
         @media #{$medium-and-down} {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
     }
+    
+    h5,
+    h6 {
+        font-size: 1.2rem;
+    }
+    
 
     strong {
-        font-weight: 500;
-        color: $red;
+        font-weight: 600;
+        color: darken($red, 20%);
     }
+
+    ul li { list-style-type: disc; }
 }
 
 // post share

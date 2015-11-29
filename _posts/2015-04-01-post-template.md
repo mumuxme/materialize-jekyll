@@ -35,6 +35,7 @@ This is a template of the post.
 
 `author`
     The author of the article. Eg: `author: Lambda`, default is the site's author.
+
 ```
 
 ## Post's Content
@@ -52,10 +53,11 @@ So, if you want to avoid syntax conflicts, you can use {% raw %}`{% raw %}`{% en
 
 Besides the traditional markdown, you can use some extensions. See the following in `_config.yml`
 
-```
+
+~~~
 markdown: redcarpet
 redcarpet:
   extensions: ["fenced_code_blocks", "superscript"]
-```
+~~~
 
 (More detail, see <https://github.com/vmg/redcarpet>)

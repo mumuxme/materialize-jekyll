@@ -14,26 +14,43 @@ $(document).ready(function() {
 });
 
 
-// materialize modal
+// table of content(toc) scroll to
+$(document).ready(function() {
+    $('.link-toc').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 500);
+        return false;
+    });
+});
+
+
+/**
+ * Materialize js
+ *
+ */
+
+// modal
 $(document).ready(function(){
         $('.modal-trigger').leanModal();
 });
 
-//Initialization for dropdowns
+// toc dropdown
 $(document).ready(function(){
-    $('.dropdown-button').dropdown({
+    $('.post-toc').dropdown({
         inDuration: 300,
         outDuration: 225,
-        constrain_width: false, // Does not change width of dropdown to that of the activator
-        hover: false,           // Activate on hover
-        gutter: 0,              // Spacing from edge
-        belowOrigin: true,      // Displays dropdown below the button
-        alignment: 'left'       // Displays dropdown with edge aligned to the left of button
+        constrain_width: true,
+        hover: true,
+        gutter: 0,
+        belowOrigin: false,
+        alignment: 'left'
       }
     );
 });
 
 // scrollspy
 $(document).ready(function(){
-  $('.scrollspy').scrollSpy();
+    $('.scrollspy').scrollSpy();
 });
+
