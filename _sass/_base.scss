@@ -64,7 +64,6 @@ strong {
 }
 
 p {
-    color: rgba(0, 0, 0, 0.71);
     padding: 0;
 }
 
@@ -72,10 +71,10 @@ p {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    color: rgba(0, 0, 0, 0.8);
     font-weight: 300;
     line-height: 1.1;
     letter-spacing: -1px;
-
 }
 
 hr {
@@ -142,12 +141,11 @@ a {
  */
 blockquote {
     color: $grey;
-    background-color: $grey-light;
+    background-color: lighten($grey, 30%);
     border-left: 4px solid $grey;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
+    //font-style: italic;
 
     > :last-child {
         margin-bottom: 0;

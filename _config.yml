@@ -34,6 +34,8 @@ permalink: /posts/:categories/:title.html
 paginate: 7
 #paginate_path: 'page/:num'
 
+gems: [jekyll-paginate]
+
 
 # commentted option
 #excerpt_separator: <!-- excerpt_end -->       # for post.excerpt

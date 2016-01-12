@@ -25,7 +25,7 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-light;
+    //border-bottom: 1px solid $grey-light;
 }
 
 .site-title {
@@ -128,7 +128,8 @@
 }
 
 .post-ribbon {
-    background-color: #aed581;
+    //background-color: rgba(15, 99, 17, 0.51);
+    background-color: rgba(68, 68, 68, 0.41);
     flex-shrink: 0;
     height: 40vh;
     width: 100%;
@@ -205,6 +206,7 @@
 
 // post title (head 1)
 .post-title {
+    color: rgba(0, 0, 0, 0.66);
     font-size: 2.8rem;
     margin: 2.1rem 0 1.68rem;
 
@@ -218,28 +220,22 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: #ee6e73;
         margin: 3.78rem 0 2.424rem;
-
-        @media #{$medium-and-down} {
-            font-size: 2rem;
-        }
-    }
-
-    h3 {
-        font-size: 2rem;
-        font-weight: 500;
-        margin: 2.68rem 0 1.2rem;
 
         @media #{$medium-and-down} {
             font-size: 1.8rem;
         }
     }
 
+    h3 {
+        font-size: 1.8rem;
+        margin: 2.68rem 0 1.2rem;
+    }
+
     h4 {
-        font-size: 1.6rem;
-        font-weight: 500;
+        font-size: 1.4rem;
         margin: 1.68rem 0 1rem;
 
         @media #{$medium-and-down} {

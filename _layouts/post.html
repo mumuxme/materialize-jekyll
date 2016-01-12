@@ -4,10 +4,10 @@ layout: default
 
 <div class="post-ribbon"></div>
 
-
 <div class="container">
   <div class="post card-panel z-depth-2">
   <div class="post-section">
+    
     <p class="grey-text">
       <i class="mdi mdi-calendar"></i>&nbsp;
       {% if page.date %}{{ page.date | date: "%b %-d, %Y" }}{% else %}unknown{% endif %}
@@ -23,7 +23,7 @@ layout: default
 
       <i class="post-tag mdi mdi-tag-multiple waves-effect waves-light"></i>
       {% for tag in page.tags | split:',' %}
-        <div class="chip">{{ tag }}<i class="mdi mdi-close material-icons"></i></div>
+        <div class="chip">{{ tag }}</div>
       {% endfor %}
     </header>
 
