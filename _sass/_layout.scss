@@ -24,35 +24,16 @@
 /**
  * Site header
  */
-.site-header {
-    //border-bottom: 1px solid $grey-light;
-}
-
 .site-title {
     font-size: 26px;
     letter-spacing: -1px;
     margin-bottom: 0;
     margin-left: 50px;
-
-    &,
-    &:visited {
-        color: $grey-dark;
-    }
-}
-
-.nav-wrapper .mdi-apps {
-    color: darken($pink, 15%);
+    color: $grey-dark;
 }
 
 .brand-logo {
     padding: 0 10px !important;    // replace materialize css
-}
-
-.brand-logo,
-.dropdown-button {
-    @media #{$small-and-down} {
-        i { line-height: 56px; }    // maybe just a bug, maybe not
-    }
 }
 
 /**
@@ -242,12 +223,12 @@
             font-size: 1.5rem;
         }
     }
-    
+
     h5,
     h6 {
         font-size: 1.2rem;
     }
-    
+
 
     strong {
         font-weight: 600;

@@ -1,29 +1,21 @@
 <header class="site-header">
 
-<!-- dropdown content, for small and med -->
-<ul id="dropdown-mobile_nav" class="dropdown-content">
-  <li><a href="{{ '/category' | prepend: site.baseurl }}">Category</a></li>
-  <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-  <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></li>
-</ul>
-
-<div class=""><nav>
-  <div class="nav-wrapper">
+  <nav><div class="nav-wrapper">
     <a href="{{ '/' | prepend: site.baseurl }}" class="brand-logo  waves-effect waves-light"><i class="mdi mdi-home white-text"></i></a>
     <span class="site-title hide-on-med-and-down">{{ site.title }}</span>
-    
-    <!-- for lagre -->
+
     <ul class="right hide-on-med-and-down nav-list">
-      <li class="waves-effect waves-light"><a href="{{ '/category' | prepend: site.baseurl }}" class=" white-text"><i class="mdi mdi-folder-multiple left"></i>Category</a></li>
-      <li class="waves-effect waves-light"><a href="{{ '/about' | prepend: site.baseurl }}" class=" white-text"><i class="mdi mdi-account left"></i>About</a></li>
-      <li class="waves-effect waves-light"><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class=" white-text"><i class="mdi mdi-rss left"></i>RSS</a></li>
+      <li class="waves-effect waves-light"><a href="{{ '/category' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-folder-multiple left"></i>Category</a></li>
+      <li class="waves-effect waves-light"><a href="{{ '/about' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-account left"></i>About</a></li>
+      <li class="waves-effect waves-light"><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-rss left"></i>RSS</a></li>
     </ul>
 
-    <!-- small and med -->
-    <ul class="right hide-on-large-only">
-        <li><a class="dropdown-button mobile_nav" href="#!" data-activates="dropdown-mobile_nav"><i class="mdi mdi-apps"></i></a></li>
+    <ul id="slide-out" class="side-nav">
+      <li><a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-teal">Category</a></li>
+      <li><a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-teal">About</a></li>
+      <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-teal">RSS</a></li>
     </ul>
-  </div>
-</nav></div>
+    <a href="" data-activates="slide-out" class="button-collapse"><i class="mdi mdi-menu"></i></a>
+  </div></nav>
 
 </header>

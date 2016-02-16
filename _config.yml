@@ -22,7 +22,7 @@ descrpt: "“巧者劳而智者忧，无能者无所求，饱食而遨游，泛�
 
 markdown: redcarpet
 redcarpet:
-  extensions: ["fenced_code_blocks", "superscript"]
+  extensions: ["fenced_code_blocks", "superscript", "highlight", "footnotes", "with_toc_data", "tables"]
 
 highlighter: pygments
 
@@ -35,6 +35,9 @@ paginate: 7
 #paginate_path: 'page/:num'
 
 gems: [jekyll-paginate]
+
+# disqus comment
+disqus_url: <...>     # Your unique disqus url; Eg: hello.disqus.com
 
 
 # commentted option

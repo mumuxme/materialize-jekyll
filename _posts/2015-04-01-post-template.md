@@ -36,6 +36,8 @@ This is a template of the post.
 `author`
     The author of the article. Eg: `author: Lambda`, default is the site's author.
 
+`comment` (optional)
+    enable the comment. Eg: `comment: true`
 ```
 
 ## Post's Content

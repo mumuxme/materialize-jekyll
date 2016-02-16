@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'nokogiri'
+gem 'jekyll-paginate'
+gem 'redcarpet'
+gem 'pygments.rb'

@@ -5,9 +5,8 @@ layout: default
 <div class="post-ribbon"></div>
 
 <div class="container">
-  <div class="post card-panel z-depth-2">
-  <div class="post-section">
-    
+  <div class="post card-panel z-depth-2"><div class="post-section">
+
     <p class="grey-text">
       <i class="mdi mdi-calendar"></i>&nbsp;
       {% if page.date %}{{ page.date | date: "%b %-d, %Y" }}{% else %}unknown{% endif %}
@@ -30,10 +29,10 @@ layout: default
     <article class="post-content">
       {{ content | toc_generate }}
     </article>
-    
+
     {% include share.html %}
 
-  </div>
-  </div>
-</div>
+  </div></div>
 
+  {% if page.comment == true %}{% include comment.html %}{% endif %}
+</div>
