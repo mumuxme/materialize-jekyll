@@ -10,23 +10,13 @@ This jekyll theme is based on [materialize](http://materializecss.com). It's sim
 Start
 ---------
 
-Modify `_config.yml` and `about.html`, then run `jekyll s`. (For more detail, see [jekyll](http://jekyllrb.com/))
+Modify `_config.yml` and `about.html`, then run `jekyll s`. (More detail, see [jekyll](http://jekyllrb.com/))
+
+If you wang to use google analytics, add `google-analytics.js` to `js` directory.
 
 **NOTE**
 
 Before start, you may have to install some dependencies. (use `gem install <package_name>` to install, or just `bundle install`)
-
-
-Demo
---------
-
-[mumuxme.github.io/blog](http://mumuxme.github.io/blog/)
-
-
-Status
---------
-
-__Testing__
 
 
 License
@@ -34,7 +24,8 @@ License
 
 [GNU GPL v3](http://www.gnu.org/licenses/).
 
-Others, see:
+Others:
+
 - jquery: <https://jquery.com>
 - materialize: <http://materializecss.com>
 - material-scrolltop: [bartholomej/material-scrolltop](https://github.com/bartholomej/material-scrolltop)

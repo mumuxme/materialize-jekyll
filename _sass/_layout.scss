@@ -20,6 +20,7 @@
     z-index: 10;
 }
 
+/* ************************************************************************** */
 
 /**
  * Site header
@@ -36,46 +37,9 @@
     padding: 0 10px !important;    // replace materialize css
 }
 
+
 /**
  * Site post list
- */
-.modal-footer {
-    a {
-        color: darken($pink, 15%);
-        &:hover { color: $blue; }
-    }
-}
-
-/**
- * Site pagination
- */
-.pagination {
-    margin-top: 32px;
-    margin-bottom: 40px;
-
-    .page {
-        // center the item (waitting other elegant method)
-        left: 50%;
-        margin-left: -10.1em;
-    }
-}
-
-
-/**
- * Site footer
- */
-.page-footer {
-    ul {
-        margin-left: 0;
-    }
-    li {
-        margin-top: 10px;
-    }
-}
-
-
-/**
- * Page content
  */
 .page-heading {
     margin-top: $spacing-unit;
@@ -108,15 +72,39 @@
     }
 }
 
-.post-ribbon {
-    //background-color: rgba(15, 99, 17, 0.51);
-    background-color: rgba(68, 68, 68, 0.41);
-    flex-shrink: 0;
-    height: 40vh;
-    width: 100%;
+
+/**
+ * Site pagination
+ */
+.pagination {
+    margin-top: 32px;
+    margin-bottom: 40px;
+
+    .page {
+        // center the item (waitting other elegant method)
+        left: 50%;
+        margin-left: -10.1em;
+    }
 }
 
-// category
+
+/**
+ * Site footer
+ */
+.page-footer {
+    ul {
+        margin-left: 0;
+    }
+    li {
+        margin-top: 10px;
+    }
+}
+
+/* ************************************************************************** */
+
+/**
+ * Category
+ */
 .post-category {
     .collection {
         padding-top: 15px;
@@ -154,12 +142,30 @@
     }
 }
 
+/* ************************************************************************** */
+
 /**
- * Posts
+ * Post
  */
+.post-ribbon {
+    //background-color: rgba(15, 99, 17, 0.51);
+    background-color: rgba(68, 68, 68, 0.41);
+    flex-shrink: 0;
+    height: 40vh;
+    width: 100%;
+}
+
+.container {
+    @media #{$small-and-down} {
+        width: 94%;
+    }
+}
+
 .post {
     margin-top: -35vh;
-    margin-bottom: 64px;
+    @media #{$medium-and-up} {
+        margin-bottom: 64px;
+    }
     flex-shrink: 0;
     min-height: 800px;
 }

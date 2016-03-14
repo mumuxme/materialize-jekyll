@@ -4,10 +4,6 @@ title: Category
 permalink: /category/
 ---
 
-<p class="center-align">
-  <i class="mdi mdi-human"></i><b>"I know that what I'm doing looks stupid, but I'm a big boy and really want to do this."</b><i class="mdi mdi-human"></i>
-</p>
-
 
 {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign category = categories | split:',' | sort %}

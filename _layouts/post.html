@@ -34,5 +34,7 @@ layout: default
 
   </div></div>
 
-  {% if page.comment == true %}{% include comment.html %}{% endif %}
+  {% if page.comment == true and site.disqus_url != 'none' %}
+    {% include comment.html %}
+  {% endif %}
 </div>

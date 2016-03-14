@@ -16,28 +16,31 @@ This is a template of the post.
 
 ```
 `layout: post`
-    This should **NOT** be changed, I think...
+    this should **NOT** be changed, I think...
 
 `title`
-    This is the title of your article, Eg: `title: Post Template`
+    the title of your article, Eg: `title: Post Template`
 
 `date`
-    The data you post the article, Eg: `date: 2015-08-17` or `data: 2015-08-17 15:06:10`
+    Eg: `date: 2015-08-17` or `data: 2015-08-17 15:06:10`
 
 `category`
-    The category, no blanks, one post to one category. Ex: `category: test`, `category: test-this`
+    no blanks, one post to one category. Ex: `category: test`, `category: test-this`
 
 `update` (optional)
     Eg: `update: 2015-05-02`
 
 `tags`
-    The tags, you can specify one or more tags. Eg: `tags: [jekyll, mdl, html]`.
+    you can specify one or more tags. Eg: `tags: [jekyll, mdl, html]`.
 
 `author`
-    The author of the article. Eg: `author: Lambda`, default is the site's author.
+    Eg: `author: Lambda`, default is the site's author.
 
 `comment` (optional)
     enable the comment. Eg: `comment: true`
+    
+`published`
+    true or false
 ```
 
 ## Post's Content

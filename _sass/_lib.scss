@@ -21,19 +21,25 @@
 
 
 /**
- * Cantarell
+ * Cantarell(cambay)
  */
-
 @font-face {
     font-family: 'cantarell_web';
-    src: url('../lib/font/cantarell/Cantarell-Regular.otf') format('opentype');
+    src: url('../lib/font/cambay/Cambay-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'cantarell_web';
-    src: url('../lib/font/cantarell/Cantarell-Bold.otf') format('opentype');
+    src: url('../lib/font/cambay/Cambay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'cantarell_web';
+    src: url('../lib/font/cambay/Cambay-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -42,7 +48,6 @@
 /**
  * material scrolltop
  */
-
 .material-scrolltop {
     background-color: $pink !important;
     display: block;
@@ -89,7 +94,6 @@
  * table of content plugin
  *
  */
-
 #toc-container {
     position: fixed;
     bottom: 0px;
