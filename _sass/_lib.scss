@@ -23,6 +23,21 @@
 /**
  * Cantarell(cambay)
  */
+
+@font-face {
+    font-family: 'cantarell_web';
+    src: url('../lib/font/cantarell/Cantarell-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cantarell_web';
+    src: url('../lib/font/cantarell/Cantarell-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: nomal;
+}
+/*
 @font-face {
     font-family: 'cantarell_web';
     src: url('../lib/font/cambay/Cambay-Regular.ttf') format('truetype');
@@ -43,7 +58,7 @@
     font-weight: bold;
     font-style: normal;
 }
-
+*/
 
 /**
  * material scrolltop

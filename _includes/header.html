@@ -1,7 +1,7 @@
 <header class="site-header">
-
   <nav><div class="nav-wrapper">
-    <a href="{{ '/' | prepend: site.baseurl }}" class="brand-logo  waves-effect waves-light"><i class="mdi mdi-home white-text"></i></a>
+
+    <a href="{{ '/' | prepend: site.baseurl }}" class="brand-logo waves-effect waves-light"><i class="mdi mdi-home white-text"></i></a>
     <span class="site-title hide-on-med-and-down">{{ site.title }}</span>
 
     <ul class="right hide-on-med-and-down nav-list">
@@ -10,12 +10,13 @@
       <li class="waves-effect waves-light"><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-rss left"></i>RSS</a></li>
     </ul>
 
+    <!-- medium and down -->
     <ul id="slide-out" class="side-nav">
-      <li><a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-teal">Category</a></li>
-      <li><a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-teal">About</a></li>
-      <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-teal">RSS</a></li>
+      <li><a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">Category</a></li>
+      <li><a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">About</a></li>
+      <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">RSS</a></li>
     </ul>
-    <a href="" data-activates="slide-out" class="button-collapse waves-effect waves-light"><i class="mdi mdi-menu"></i></a>
-  </div></nav>
+    <a href="" data-activates="slide-out" class="button-collapse waves-effect waves-light"><i class="mdi mdi-menu white-text"></i></a>
 
+  </div></nav>
 </header>

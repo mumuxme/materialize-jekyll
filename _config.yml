@@ -24,6 +24,9 @@ markdown: redcarpet
 redcarpet:
   extensions: ["fenced_code_blocks", "superscript", "highlight", "footnotes", "with_toc_data", "tables", "underline"]
 
+#kramdown:
+#  input: GFM
+
 highlighter: pygments
 
 sass:
@@ -40,5 +43,8 @@ gems: [jekyll-paginate]
 disqus_url: <...>     # Your unique disqus url; Eg: `hello.disqus.com`; set `none` mean disable disqus comment.
 
 
+#
 # commentted option
+#
+
 #excerpt_separator: <!-- excerpt_end -->       # for post.excerpt

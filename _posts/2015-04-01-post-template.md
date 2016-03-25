@@ -11,10 +11,9 @@ author: Lambda
 
 This is a template of the post.
 
-
 ## Post's YAML
 
-```
+~~~
 `layout: post`
     this should **NOT** be changed, I think...
 
@@ -41,14 +40,15 @@ This is a template of the post.
     
 `published`
     true or false
-```
+~~~
 
 ## Post's Content
 
 ### Include Liquid in markdown
 
-- 1. All legal markdown syntax may be allowed. (markdown: redcarpet)
-- 2. Liquid synatax also should be allowed.
+- All legal markdown syntax may be allowed. 
+- Liquid synatax also should be allowed.
+
 
 So, if you want to avoid syntax conflicts, you can use {% raw %}`{% raw %}`{% endraw %}
 
@@ -58,7 +58,6 @@ So, if you want to avoid syntax conflicts, you can use {% raw %}`{% raw %}`{% en
 
 Besides the traditional markdown, you can use some extensions. See the following in `_config.yml`
 
-
 ~~~
 markdown: redcarpet
 redcarpet:
@@ -66,3 +65,4 @@ redcarpet:
 ~~~
 
 (More detail, see <https://github.com/vmg/redcarpet>)
+

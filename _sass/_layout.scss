@@ -34,8 +34,14 @@
 }
 
 .brand-logo {
-    padding: 0 10px !important;    // replace materialize css
+    padding: 0 10px !important;
 }
+
+/* replace(broken) materialize css default style */
+//.site-header {
+    .side-nav li { padding: 0 0; }
+    .side-nav a { padding: 0 26px; }
+//}
 
 
 /**
@@ -81,7 +87,7 @@
     margin-bottom: 40px;
 
     .page {
-        // center the item (waitting other elegant method)
+        /* center the item (waitting other elegant method) */
         left: 50%;
         margin-left: -10.1em;
     }
@@ -106,29 +112,12 @@
  * Category
  */
 .post-category {
-    .collection {
-        padding-top: 15px;
-    }
-
     ul li {
-        margin-bottom: 10px;
+        margin-top: 8px;
         list-style-type: none !important;
     }
-}
-
-.category-list {
-    margin-top: 32px;
-
-    .title {
-        margin-top: 0;
-    }
-
+    
     @media #{$medium-and-up} {
-
-        ul {
-            margin-left: $spacing-unit*2;
-        }
-
         .category-link {
             transition: padding-left 0.25s;
             -webkit-transition: padding-left 0.25s;
@@ -191,7 +180,7 @@
     }
 }
 
-// post title (head 1)
+/* post title (head 1) */
 .post-title {
     color: rgba(0, 0, 0, 0.66);
     font-size: 2.8rem;
@@ -202,7 +191,7 @@
     }
 }
 
-// post and page content
+/* post and page content */
 .post-content {
     margin-bottom: $spacing-unit;
 
@@ -244,7 +233,7 @@
     ul li { list-style-type: disc; }
 }
 
-// post share
+/* post share */
 .post-share {
     margin-top: 100px;
     letter-spacing: .2em;

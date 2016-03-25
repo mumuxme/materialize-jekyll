@@ -9,45 +9,22 @@ permalink: /category/
 {% assign category = categories | split:',' | sort %}
 
 <div class="post-category">
+  {% for item in (0..site.categories.size) %}{% unless forloop.last %}
 
-    <div class="collection hide-on-small-only">
-    {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+    {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
 
-      {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
-      <ul >
-        <li>
-            <a href="#{{ word }}" class="waves-effect waves-light btn white-text lower-case">{{ word }}</a>
-
-            <span class="badge">
-              <div class="waves-effect waves-circle btn-floating waves-green white">
-                  <p class="pink-text">{{site.categories[word].size }}</p>
-              </div>
-            </span>
-        </li>
-      </ul>
-    {% endunless %}{% endfor %}
-    </div>
-
-
-    <div class="category-list">
-    {% assign color = "red|orange|yellow|green|teal|lime|purple" | split: "|" %}
-
-    {% for item in (0..site.categories.size) %}{% unless forloop.last %}
-    {% assign i = item | modulo: color.size %}
-
-      {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
-      <div class="card-panel hoverable {{ color[i] }} lighten-4">
-        <div id="{{ word }}" class="section scrollspy">
-          <h3 class="capitalize title">{{ word }}</h3>
-        </div>
-        {% for post in site.categories[word] %}{% if post.title != null %}
-        <ul>
-          <li>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;>>&nbsp;&nbsp;<a class="category-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-        </ul>
-        {% endif %}{% endfor %}
+    <ul class="collapsible" data-collapsible="expandable"><li>
+      <div class="collapsible-header">
+        {{ word }}
+        <a class="waves-circle btn-floating right waves-effect waves-green white"><p class="pink-text">{{site.categories[word].size }}</p></a>
       </div>
 
-    {% endunless %}{% endfor %}
-    </div>
+      <div class="collapsible-body">
+        {% for post in site.categories[word] %}{% if post.title != null %}
+          <ul><li>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;>>&nbsp;&nbsp;<a class="category-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li></ul>
+        {% endif %}{% endfor %}
+      </div>
+    </li></ul>
 
+  {% endunless %}{% endfor %}
 </div>
