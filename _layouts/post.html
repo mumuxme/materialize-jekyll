@@ -20,10 +20,12 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">{{ page.title }}</h1>
 
+      {% if page.tags %}
       <i class="post-tag mdi mdi-tag-multiple waves-effect waves-light"></i>
       {% for tag in page.tags | split:',' %}
         <div class="chip">{{ tag }}</div>
       {% endfor %}
+      {% endif %}
     </header>
 
     <article class="post-content">

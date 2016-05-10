@@ -22,7 +22,7 @@ descrpt: "“巧者劳而智者忧，无能者无所求，饱食而遨游，泛�
 
 markdown: redcarpet
 redcarpet:
-  extensions: ["fenced_code_blocks", "superscript", "highlight", "footnotes", "with_toc_data", "tables", "underline"]
+  extensions: ["fenced_code_blocks", "superscript", "highlight", "footnotes", "tables", "underline"]  # "with_toc_data"
 
 #kramdown:
 #  input: GFM

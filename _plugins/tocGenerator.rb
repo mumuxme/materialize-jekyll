@@ -19,7 +19,7 @@ module Jekyll
               <ul id="dropdown-toc" class="dropdown-content">%1</ul>
             </div>
     '''
-    
+
     def toc_generate(html)
       # No Toc can be specified on every single page
       # For example the index page has no table of contents

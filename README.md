@@ -12,7 +12,9 @@ Start
 
 Modify `_config.yml` and `about.html`, then run `jekyll s`. (More detail, see [jekyll](http://jekyllrb.com/))
 
-If you wang to use google analytics, add `google-analytics.js` to `js` directory.
+You can find some post templates under `_posts` directory.
+
+If you want to use google analytics, add your `google-analytics.js` to `js` directory.
 
 **NOTE**
 
