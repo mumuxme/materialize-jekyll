@@ -21,6 +21,12 @@ If you want to use google analytics, add your `google-analytics.js` to `js` dire
 Before start, you may have to install some dependencies. (use `gem install <package_name>` to install, or just `bundle install`)
 
 
+TODO
+---------
+
+- Add dark theme.
+
+
 License
 ---------
 
