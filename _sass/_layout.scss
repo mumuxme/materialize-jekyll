@@ -1,6 +1,18 @@
 /**
- *
+ * Layout
  */
+
+/**
+ * Selection style
+ */
+::selection {
+    color: #fff;
+    background-color: $teal-accent;
+}
+::-moz-selection {
+    color: #fff;
+    background-color: $teal-accent;
+}
 
 
 /**
@@ -19,6 +31,16 @@
     width: 100%;
     z-index: 10;
 }
+
+
+/**
+ * Helper
+ */
+.lower-case { text-transform: lowercase; }
+.upper-case { text-transform: uppercase; }
+.capitalize { text-transform: capitalize; }
+
+
 
 /* ************************************************************************** */
 

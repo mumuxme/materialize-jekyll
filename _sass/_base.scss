@@ -1,19 +1,6 @@
 /**
- *
+ * Base
  */
-
-
-/**
- * Selection style
- */
-::selection {
-    color: #fff;
-    background-color: $teal-accent;
-}
-::-moz-selection {
-    color: #fff;
-    background-color: $teal-accent;
-}
 
 
 /**
@@ -54,11 +41,6 @@ ul, ol, dl, figure,
 /**
  * Text
  */
-
-.lower-case { text-transform: lowercase; }
-.upper-case { text-transform: uppercase; }
-.capitalize { text-transform: capitalize; }
-
 strong {
     //font-weight: bold;
 }
@@ -75,6 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     line-height: 1.1;
     letter-spacing: -1px;
+    //border-bottom: 1px solid #aaa;
 }
 
 hr {
