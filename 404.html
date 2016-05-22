@@ -5,7 +5,13 @@
 <html lang="en"> 
 <head>
   <title>404 Not Found</title>
-  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta name="theme-color" content="#009688">
+
+
   <link rel="stylesheet" href="{{ '/lib/materialize/css/materialize.min.css' | prepend: site.baseurl }}">
   <link media="all" rel="stylesheet" type="text/css" href="{{ '/lib/mdi/css/materialdesignicons.min.css' | prepend: site.baseurl }}">
 
@@ -15,7 +21,13 @@
     }
     
     .card-404 {
-        margin-top: 40px;
+        margin: 40px 10px;
+    }
+    
+    .back-home {
+        position: fixed;
+        right: 40px;
+        bottom: 60px;
     }
   </style>
 </head>
@@ -36,16 +48,16 @@
             <div  style="-ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); transform: rotate(-90deg);">
               <i class="mdi mdi-brightness-3"></i>
             </div>
-
           </div>
 
           <h5>Sorry. We couldn't find that page...</h5>
         </div>
-        <div class="card-action">
-          <a href="{{ '/' | prepend: site.baseurl }}" class="waves-effect waves-light pink lighten-1 btn white-text"><i class="mdi mdi-home-variant left"></i>go home</a>
-        </div>
       </div>
   </div>
+</div>
+
+<div class="back-home">
+   <a href="{{ '/' | prepend: site.baseurl }}" class="tooltipped waves-effect waves-light cyan lighten-1 btn-floating btn-large white-text" data-position="left" data-delay="50" data-tooltip="Back to home"><i class="mdi mdi-home-variant left"></i>go home</a>
 </div>
 
   <script type="text/javascript" src="{{ '/lib/jquery-min.js' | prepend: site.baseurl }}"></script>
