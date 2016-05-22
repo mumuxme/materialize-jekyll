@@ -20,6 +20,18 @@ If you want to use google analytics, add your `google-analytics.js` to `js` dire
 
 Before start, you may have to install some dependencies. (use `gem install <package_name>` to install, or just `bundle install`)
 
+If you see 
+
+```
+cannot load such file -- jekyll/deprecator (LoadError)
+```
+
+see [this issue](https://github.com/jekyll/jekyll/issues/3353), run in this way:
+
+```
+bundle exec jekyll s
+```
+
 
 TODO
 ---------
