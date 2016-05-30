@@ -28,9 +28,8 @@ layout: default
             <p>{{ post.excerpt }}</p>
           </div>
           <div class="modal-footer">
-            <a href="{{ post.url | prepend: site.baseurl }}" class="waves-effect waves-light pink btn right white-text">read more <i class="mdi mdi-send right"></i></a>
-            <!--TODO move close button to top-roght-->
-            <button class="modal-action modal-close waves-effect waves-light pink btn left"><i class="mdi mdi-close"></i></button>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="waves-effect waves-green btn-flat right">read more</a>
+            <a class="modal-action modal-close waves-effect waves-green btn-flat left">close</a>
           </div>
         </div>
       </li>
@@ -40,7 +39,7 @@ layout: default
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="waves-effect waves-green btn cyan left"><i class="mdi mdi-chevron-left white-text"></i></a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="waves-effect waves-light btn cyan left"><i class="mdi mdi-chevron-left white-text"></i></a>
     {% else %}
     <span class="btn disabled left"><i class="mdi mdi-chevron-left white-text"></i></span>
     {% endif %}
@@ -48,7 +47,7 @@ layout: default
     <div class="waves-effect waves-orange btn-flat lower-case page">Page: <span class="pink-text">{{ paginator.page }}</span> of {{ paginator.total_pages }}</div>
 
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="waves-effect waves-green btn cyan right"><i class="mdi mdi-chevron-right white-text"></i></a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="waves-effect waves-light btn cyan right"><i class="mdi mdi-chevron-right white-text"></i></a>
     {% else %}
     <span class="btn disabled right"><i class="mdi mdi-chevron-right white-text"></i></a></li>
     {% endif %}

@@ -174,18 +174,22 @@
 
 .post {
     margin-top: -35vh;
+    flex-shrink: 0;
+    min-height: 800px;
+
     @media #{$medium-and-up} {
         margin-bottom: 64px;
     }
-    flex-shrink: 0;
-    min-height: 800px;
+    @media #{$small-and-down} {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 .post-section {
     @media #{$small-and-down} {
         padding: 70px 0px;
     }
-
     @media #{$medium-and-up} {
         padding: 70px 56px;
         margin-bottom: 60px;
