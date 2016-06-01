@@ -14,7 +14,7 @@ layout: default
       {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
       &nbsp;&nbsp;<i class="mdi mdi-label"></i>&nbsp;
       {% if page.category %}<span class="capitalize">{{ page.category }}</span>{% else %}unknown{% endif %}
-      {% if page.update %}&emsp;<i class="mdi mdi-refresh"></i>&nbsp;UPDATE: {{ page.update | date: "%b %-d, %Y" }}{% endif %}
+      &emsp;<i class="mdi mdi-refresh"></i>&nbsp;UPDATE: {% if page.update %}{{ page.update | date: "%b %-d, %Y" }}{% else %}{{ page.last_modified_at | date: "%b %-d, %Y" }}{% endif %}
     </p>
 
     <header class="post-header">
