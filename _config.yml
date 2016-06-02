@@ -27,7 +27,8 @@ redcarpet:
 #kramdown:
 #  input: GFM
 
-highlighter: pygments
+#highlighter: pygments
+highlighter: rouge
 
 sass:
     style: compressed
