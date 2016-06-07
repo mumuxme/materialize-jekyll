@@ -180,15 +180,11 @@
     @media #{$medium-and-up} {
         margin-bottom: 64px;
     }
-    @media #{$small-and-down} {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 }
 
 .post-section {
     @media #{$small-and-down} {
-        padding: 70px 0px;
+        //padding: 70px 0px;
     }
     @media #{$medium-and-up} {
         padding: 70px 56px;
