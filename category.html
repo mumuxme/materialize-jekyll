@@ -4,6 +4,10 @@ title: Category
 permalink: /category/
 ---
 
+<div><style>button { margin-bottom: 10px; }</style>
+  <button class="waves-effect waves-light btn" onClick="expandAll();"><i class="mdi mdi-chevron-double-down left"></i>Expand</button>
+  <button class="waves-effect waves-light btn" onClick="collapseAll();"><i class="mdi mdi-chevron-double-up left"></i>Collapse</button>
+</div>
 
 {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign category = categories | split:',' | sort %}
@@ -14,8 +18,8 @@ permalink: /category/
     {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
 
     <ul class="collapsible" data-collapsible="expandable"><li>
-      <div class="collapsible-header">
-        {{ word }}
+      <div class="collapsible-header active">
+        <span class="capitalize" style="font-size: 18px;">{{ word }}</span>
         <a class="waves-circle btn-floating right waves-effect waves-green white"><p class="pink-text">{{site.categories[word].size }}</p></a>
       </div>
 
