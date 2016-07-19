@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Category
-permalink: /category/
+permalink: /category
 ---
 
 <div><style>button { margin-bottom: 10px; }</style>
@@ -17,7 +17,10 @@ permalink: /category/
 
     {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
 
-    <ul class="collapsible" data-collapsible="expandable"><li>
+    <a id="{{ word }}" href="#{{ word }}"></a> <!--for position-->
+
+    <ul class="collapsible" data-collapsible="expandable">
+    <li>
       <div class="collapsible-header active">
         <span class="capitalize" style="font-size: 18px;">{{ word }}</span>
         <a class="waves-circle btn-floating right waves-effect waves-green white"><p class="pink-text">{{site.categories[word].size }}</p></a>
@@ -28,7 +31,8 @@ permalink: /category/
           <ul><li>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;>>&nbsp;&nbsp;<a class="category-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li></ul>
         {% endif %}{% endfor %}
       </div>
-    </li></ul>
+    </li>
+    </ul>
 
   {% endunless %}{% endfor %}
 </div>
