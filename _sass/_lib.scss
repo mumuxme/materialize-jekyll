@@ -1,29 +1,11 @@
 /**
- * library and plugin style
+ * font
  */
 
+// code
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
 
-/**
- * Dejavusans mono font
- */
-
-// normal
-@font-face {
-    font-family: 'dejavu_sans_mono_web';
-    src: url('../lib/font/dejavu/DejaVuSansMono-webfont.eot');
-    src: url('../lib/font/dejavu/DejaVuSansMono-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../lib/font/dejavu/DejaVuSansMono-webfont.woff') format('woff'),
-         url('../lib/font/dejavu/DejaVuSansMono-webfont.ttf') format('truetype'),
-         url('../lib/font/dejavu/DejaVuSansMono-webfont.svg#dejavu_sans_monobook') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-/**
- * Cantarell(cambay)
- */
-
+// Cantarell(cambay)
 @font-face {
     font-family: 'cantarell_web';
     src: url('../lib/font/cantarell/Cantarell-Regular.otf') format('opentype');
@@ -59,6 +41,7 @@
     font-style: normal;
 }
 */
+
 
 /**
  * material scrolltop
@@ -122,6 +105,5 @@
 .toctext {
     font-size: 14px;
 }
-
 
 
