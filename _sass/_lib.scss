@@ -2,10 +2,9 @@
  * font
  */
 
-// code
-@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700';
 
-// Cantarell(cambay)
+// Cantarell
 @font-face {
     font-family: 'cantarell_web';
     src: url('../lib/font/cantarell/Cantarell-Regular.otf') format('opentype');
@@ -19,28 +18,6 @@
     font-weight: bold;
     font-style: nomal;
 }
-/*
-@font-face {
-    font-family: 'cantarell_web';
-    src: url('../lib/font/cambay/Cambay-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'cantarell_web';
-    src: url('../lib/font/cambay/Cambay-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'cantarell_web';
-    src: url('../lib/font/cambay/Cambay-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-*/
 
 
 /**

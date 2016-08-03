@@ -98,6 +98,10 @@
     &:hover {
         color: $blue;
     }
+    
+    @media #{$small-and-down} {
+        font-size: 1.3em;
+    }
 }
 
 
@@ -111,7 +115,7 @@
     .page {
         /* center the item (waitting other elegant method) */
         left: 50%;
-        margin-left: -10.1em;
+        margin-left: -10.3rem;
     }
 }
 
@@ -248,7 +252,6 @@
 
 
     strong {
-        font-weight: 600;
         color: darken($red, 20%);
     }
 
