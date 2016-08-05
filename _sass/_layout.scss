@@ -48,6 +48,7 @@
  * Site header
  */
 .site-title {
+    font-family: $head-font-family;
     font-size: 26px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -222,6 +223,7 @@
     margin-bottom: $spacing-unit;
 
     h2 {
+        font-family: $head-font-family;
         font-size: 2rem;
         color: #ee6e73;
         margin: 3.78rem 0 2.424rem;

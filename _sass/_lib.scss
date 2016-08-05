@@ -2,9 +2,26 @@
  * font
  */
 
-@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+
+// Delius
+@font-face {
+    font-family: 'Delius';
+    src: url('../lib/font/Delius/Delius-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Delius_Swash_Caps
+@font-face {
+    font-family: 'Delius_Swash_Caps';
+    src: url('../lib/font/Delius_Swash_Caps/DeliusSwashCaps-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 // Cantarell
+/*
 @font-face {
     font-family: 'cantarell_web';
     src: url('../lib/font/cantarell/Cantarell-Regular.otf') format('opentype');
@@ -18,7 +35,7 @@
     font-weight: bold;
     font-style: nomal;
 }
-
+*/
 
 /**
  * material scrolltop
