@@ -2,9 +2,8 @@
  * Layout
  */
 
-/**
- * Selection style
- */
+
+// Selection style
 ::selection {
     color: #fff;
     background-color: $teal-accent;
@@ -14,10 +13,7 @@
     background-color: $teal-accent;
 }
 
-
-/**
- * Check
- */
+// Check
 .notice-warning {
     background-color: #E91E63;
     color: #fff;
@@ -32,17 +28,11 @@
     z-index: 10;
 }
 
-
-/**
- * Helper
- */
+// Helper
 .lower-case { text-transform: lowercase; }
 .upper-case { text-transform: uppercase; }
 .capitalize { text-transform: capitalize; }
 
-
-
-/* ************************************************************************** */
 
 /**
  * Site header
@@ -77,7 +67,6 @@
 .favo {
     letter-spacing: .2em;
 }
-
 
 .post-list {
     margin-left: 0;
@@ -133,7 +122,6 @@
     }
 }
 
-/* ************************************************************************** */
 
 /**
  * Category
@@ -156,9 +144,12 @@
             }
         }
     }
+    
+    @media #{$small-and-down} {
+        .collapsible-body ul { margin-left: 10px; margin-right: 10px; }
+    }
 }
 
-/* ************************************************************************** */
 
 /**
  * Post
@@ -239,6 +230,7 @@
     }
 
     h4 {
+        color: #105a98;
         font-size: 1.4rem;
         margin: 1.68rem 0 1rem;
 
