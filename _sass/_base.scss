@@ -125,7 +125,7 @@ a {
 blockquote {
     //color: $grey;
     background-color: lighten($grey, 30%);
-    border-left: 4px solid $grey;
+    border-left: 4px solid rgba(233, 30, 99, 0.8);
     padding-left: $spacing-unit / 2;
     letter-spacing: -1px;
     //font-style: italic;
@@ -144,7 +144,7 @@ code {
     font-family: $code-font-family;
     font-size: .9rem;
     color: #000;
-    border: 1px solid $grey-light;
+    //border: 1px solid $grey-light;
     border-radius: 3px;
     background-color: #c8e6c9;
 }
