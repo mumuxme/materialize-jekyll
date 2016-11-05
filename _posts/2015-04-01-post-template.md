@@ -5,10 +5,11 @@ date: 2015-04-01
 category: "readme"
 tags: [jekyll, material design]
 author: Lambda
+comment: false
 ---
 
-
 This is a template of the post.
+
 
 ## Post's YAML 
 
