@@ -38,7 +38,7 @@ permalink: /posts/:categories/:title.html
 paginate: 7
 #paginate_path: 'page/:num'
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-last-modified-at]
 
 # disqus comment
 disqus_url: <...>     # Your unique disqus url; Eg: `hello.disqus.com`; set `none` mean disable disqus comment.
