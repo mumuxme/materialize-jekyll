@@ -1,4 +1,4 @@
-materialize - jekyll
+Materialize - jekyll
 ==============
 
 Introducton
