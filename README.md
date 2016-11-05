@@ -10,23 +10,17 @@ This jekyll theme is based on [materialize](http://materializecss.com). It's sim
 Start
 ---------
 
-Modify `_config.yml` and `about.html`, then run `jekyll s`. (More detail, see [jekyll](http://jekyllrb.com/))
-
-You can find some post templates under `_posts` directory.
-
-If you want to use google analytics, add your `google-analytics.js` to `js` directory.
-
-**NOTE**
-
-Before start, you may have to install some dependencies. (use `gem install <package_name>` to install, or just `bundle install`)
-
-If you see 
+#### Install dependencies
 
 ```
-cannot load such file -- jekyll/deprecator (LoadError)
+bundle install
 ```
 
-see [this issue](https://github.com/jekyll/jekyll/issues/3353), run in this way:
+#### Custom
+
+Modify `_config.yml` and `about.html`. (You can find some post templates under `_posts` directory. If you want to use google analytics, add your `google-analytics.js` into `js` directory.)
+
+#### Run
 
 ```
 bundle exec jekyll s
