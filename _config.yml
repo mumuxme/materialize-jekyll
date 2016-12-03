@@ -6,7 +6,8 @@ twitter_username: twitter
 github_username:  github
 googleplus_username: google
 
-title: Lambda's blog
+head-title: Your blog
+title: Your blog
 
 baseurl: "/blog"    # the subpath of your site
 url: ""
