@@ -8,10 +8,11 @@
 //
 
 // All import font can be found in `_sass/_lib.scss`
-// 'cantarell_web'
 $base-font-family: 'Delius', Helvetica, Arial, sans-serif;
-$head-font-family: "DejaVu Sans Mono", 'Source Code Pro';
 $code-font-family: "DejaVu Sans Mono", "Monospace", 'Source Code Pro';
+$head-font-family: 'Delius';
+$site-title-font-family: "DejaVu Sans Mono", 'Source Code Pro';
+
 
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
