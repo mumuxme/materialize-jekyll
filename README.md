@@ -7,7 +7,7 @@ Materialize - jekyll
 This jekyll theme is based on [materialize](http://materializecss.com). It's simple, static and following material design.
 
 
-## Start
+## Getting start
 
 #### Install dependencies
 
@@ -26,15 +26,14 @@ bundle exec jekyll s
 ```
 
 
-TODO
----------
+## TODO
 
 - Add comment.
+- Add options to choose self host or cdn.
 - Add dark theme.
 
 
-License
----------
+## License
 
 [GNU GPL v3](http://www.gnu.org/licenses/).
 
