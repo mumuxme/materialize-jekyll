@@ -1,14 +1,13 @@
 Materialize - jekyll
 ==============
 
-Introducton
----------
+
+## Introducton
 
 This jekyll theme is based on [materialize](http://materializecss.com). It's simple, static and following material design.
 
 
-Start
----------
+## Start
 
 #### Install dependencies
 
@@ -30,6 +29,7 @@ bundle exec jekyll s
 TODO
 ---------
 
+- Add comment.
 - Add dark theme.
 
 

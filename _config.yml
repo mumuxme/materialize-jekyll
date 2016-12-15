@@ -41,9 +41,6 @@ paginate: 7
 
 gems: [jekyll-paginate, jekyll-last-modified-at]
 
-# disqus comment
-disqus_url: <...>     # Your unique disqus url; Eg: `hello.disqus.com`; set `none` mean disable disqus comment.
-
 
 #
 # commentted option
