@@ -2,8 +2,6 @@
  * Layout
  */
 
-
-// Selection style
 ::selection {
     color: #fff;
     background-color: $teal-accent;
@@ -88,7 +86,7 @@
     &:hover {
         color: $blue;
     }
-    
+
     @media #{$small-and-down} {
         font-size: 1.3em;
     }
@@ -131,7 +129,7 @@
         margin-top: 8px;
         list-style-type: none !important;
     }
-    
+
     @media #{$medium-and-up} {
         .category-link {
             transition: padding-left 0.25s;
@@ -144,7 +142,7 @@
             }
         }
     }
-    
+
     @media #{$small-and-down} {
         .collapsible-body ul { margin-left: 10px; margin-right: 10px; }
     }
@@ -200,8 +198,8 @@
 
 /* post title (head 1) */
 .post-title {
-    color: rgba(0, 0, 0, 0.66);
-    font-size: 2.4rem;
+    //color: rgba(0, 0, 0, 0.66);
+    font-size: 2rem;
     margin: 2.1rem 0 1.68rem;
 
     @media #{$medium-and-down} {
@@ -215,7 +213,7 @@
 
     h2 {
         font-family: $head-font-family;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #ee6e73;
         margin: 2.78rem 0 1.224rem;
 
