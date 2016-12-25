@@ -25,6 +25,12 @@ Modify `_config.yml` and `about.html`. (You can find some post templates under `
 bundle exec jekyll s
 ```
 
+## Features
+
+#### Emoji
+
+You can use GitHub-flavored emoji. See [emoji cheat sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
 
 ## TODO
 
@@ -43,3 +49,4 @@ Others:
 - materialize: <http://materializecss.com>
 - material-scrolltop: [bartholomej/material-scrolltop](https://github.com/bartholomej/material-scrolltop)
 - material design icon: [Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign) or <https://materialdesignicons.com/getting-started>
+- GitHub-flavored emoji plugin: [jemoji](https://github.com/jekyll/jemoji)
