@@ -12,9 +12,9 @@ This jekyll theme is based on [materialize](http://materializecss.com). It's sim
 #### Install dependencies
 
 ```
-git clone https://github.com/mumuxme/materialize-jekyll
-cd materialize-jekyll
-bundle install
+$ git clone https://github.com/mumuxme/materialize-jekyll
+$ cd materialize-jekyll
+$ bundle install
 ```
 
 #### Run
@@ -26,10 +26,10 @@ bundle install
 Then:
 
 ```
-bundle exec jekyll s
+$ bundle exec jekyll s
 
 # or start with draft
-bundle exec jekyll s --drafts
+$ bundle exec jekyll s --drafts
 ```
 
 (Some post templates are under `_posts` directory.)
