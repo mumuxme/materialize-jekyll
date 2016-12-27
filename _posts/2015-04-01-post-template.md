@@ -37,8 +37,8 @@ This is a template of the post.
 
 `comment` (optional)
     enable the comment. E.g. `comment: true`
-    
-`published`
+
+`published` (optional)
     true or false
 ~~~
 

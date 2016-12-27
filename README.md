@@ -12,18 +12,28 @@ This jekyll theme is based on [materialize](http://materializecss.com). It's sim
 #### Install dependencies
 
 ```
+git clone https://github.com/mumuxme/materialize-jekyll
+cd materialize-jekyll
 bundle install
 ```
 
-#### Custom
-
-Modify `_config.yml` and `about.html`. (You can find some post templates under `_posts` directory. If you want to use google analytics, add your `google-analytics.js` into `js` directory.)
-
 #### Run
+
+1. Modify `_config.yml` and `about.md`.
+2. You can add a `favicon.ico` file in the project root directory.
+3. If you want to use google analytics, add your `google-analytics.js` into `js` directory.
+
+Then:
 
 ```
 bundle exec jekyll s
+
+# or start with draft
+bundle exec jekyll s --drafts
 ```
+
+(Some post templates are under `_posts` directory.)
+
 
 ## Features
 
