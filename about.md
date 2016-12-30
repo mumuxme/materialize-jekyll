@@ -32,4 +32,3 @@ As for all articles(except reference) are under [CC Attribution-ShareAlike 4.0 I
 #### Personal information
 
 Email: {{ site.email }}
-

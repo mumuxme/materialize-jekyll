@@ -142,27 +142,31 @@ blockquote {
 pre,
 code {
     font-family: $code-font-family;
-    font-size: .9rem;
     color: #000;
-    //border: 1px solid $grey-light;
+    border: 1px solid $grey-light;
     border-radius: 3px;
     background-color: #c8e6c9;
 }
 
 code {
+    font-size: .9rem;
     padding: 1px 5px;
 }
 
 pre {
     padding: 8px 12px;
-    overflow-x: scroll;
+    //overflow-x: scroll;
+    font-size: 1rem;
 
     > code {
-        font-size: 1rem;
+        font-size: 1rem;        
         border: 0;
         padding-right: 0;
         padding-left: 0;
         display: block;
+    }
+    td, th {
+        padding: 0px 0px;
     }
 }
 

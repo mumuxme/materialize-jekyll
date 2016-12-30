@@ -6,10 +6,23 @@ Materialize - jekyll
 
 This jekyll theme is based on [materialize](http://materializecss.com). It's simple, static and following material design.
 
+<del>Open [demo]()</del>
 
 ## Getting start
 
-#### Install dependencies
+For debian/linux
+
+#### Dependencies
+
+You may need some dev headers:
+
+```
+# apt-get install liblzma-dev zlib1g-dev
+```
+
+(Other dependencies may also needed. If any questions, feel free to open an issue.)
+
+#### Install
 
 ```
 $ git clone https://github.com/mumuxme/materialize-jekyll
@@ -31,8 +44,6 @@ $ bundle exec jekyll s
 # or start with draft
 $ bundle exec jekyll s --drafts
 ```
-
-(Some post templates are under `_posts` directory.)
 
 
 ## Features

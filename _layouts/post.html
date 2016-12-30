@@ -5,7 +5,8 @@ layout: default
 <div class="post-ribbon"></div>
 
 <div class="container" id="mob-cont">
-  <div class="post card-panel z-depth-2" id="mob-depth-2"><div class="post-section">
+  <div class="post card-panel z-depth-2" id="mob-depth-2">
+  <div class="post-section">
 
     <p class="grey-text">
       <i class="mdi mdi-calendar"></i>&nbsp;
@@ -13,7 +14,7 @@ layout: default
       &nbsp;&nbsp;<i class="mdi mdi-account-circle"></i>&nbsp;
       {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
       &nbsp;&nbsp;<i class="mdi mdi-label"></i>&nbsp;
-      {% if page.category %}<span class="capitalize">{{ page.category }}</span>{% else %}unknown{% endif %}
+      {% if page.categories %}<span class="capitalize">{{ page.categories }}</span>{% else %}unknown{% endif %}
       &emsp;<i class="mdi mdi-refresh"></i>&nbsp;UPDATE: {% if page.update %}{{ page.update | date: "%b %-d, %Y" }}{% else %}{{ page.last_modified_at | date: "%b %-d, %Y" }}{% endif %}
     </p>
 
@@ -21,10 +22,10 @@ layout: default
       <h1 class="post-title">{{ page.title }}</h1>
 
       {% if page.tags %}
-      <i class="post-tag mdi mdi-tag-multiple waves-effect waves-light"></i>
-      {% for tag in page.tags | split:',' %}
+        <i class="post-tag mdi mdi-tag-multiple waves-effect waves-light"></i>
+        {% for tag in page.tags %}
         <div class="chip">{{ tag }}</div>
-      {% endfor %}
+        {% endfor %}
       {% endif %}
     </header>
 
@@ -34,18 +35,11 @@ layout: default
 
     {% include share.html %}
 
-  </div></div>
+  </div>
+  </div>
 
-  {% comment %}
-  <!--TODO: remove
-  {% if page.comment == true and site.disqus_url != 'none' %}
-    {% include comment.html %}
-  {% endif %}
-  -->
-  {% endcomment %}
-  <!--
   {% if page.mathjax %}
     {% include mathjax_support.html %}
   {% endif %}
-  -->
+
 </div>

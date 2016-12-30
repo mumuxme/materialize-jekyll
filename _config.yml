@@ -17,19 +17,21 @@ description: "I know that what I'm doing looks stupid, but I'm a big boy and rea
 favo: "春梦随云散，飞花逐水流"
 descrpt: "“巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟”  ——《南华经》"
 
+
 #
 # Build settings
 #
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["fenced_code_blocks", "superscript", "highlight", "footnotes", "tables", "underline"]  # "with_toc_data"
+#exclude: [vendor]
 
-#kramdown:
-#  input: GFM
-
-#highlighter: pygments
+markdown: kramdown
 highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  highlight: true
+  auto_ids:  true
 
 sass:
     style: compressed
@@ -40,6 +42,7 @@ paginate: 7
 #paginate_path: 'page/:num'
 
 gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
+
 
 #
 # commentted option
