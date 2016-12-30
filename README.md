@@ -6,7 +6,8 @@ Materialize - jekyll
 
 This jekyll theme is based on [materialize](http://materializecss.com). It's simple, static and following material design.
 
-<del>Open [demo]()</del>
+[Open demo](https://mumuxme.github.io/materialize-jekyll/)
+
 
 ## Getting start
 
