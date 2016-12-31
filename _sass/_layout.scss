@@ -37,11 +37,14 @@
  */
 .site-title {
     font-family: $site-title-font-family;
-    font-size: 24px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    margin-left: 50px;
-    color: $grey-dark;
+    font-size: 18px;
+    margin-left: 10px;
+    @media #{$medium-and-up} {
+        font-size: 24px;
+        margin-left: 20px;
+    }
 }
 
 .brand-logo {
@@ -162,7 +165,7 @@
 
 .container {
     @media #{$small-and-down} {
-        width: 94%;
+        width: 100%;
     }
 }
 
@@ -173,6 +176,11 @@
 
     @media #{$medium-and-up} {
         margin-bottom: 40px;
+    }
+
+    @media #{$small-and-down} {
+        // remove z-depth for mobile
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     }
 }
 

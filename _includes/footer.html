@@ -1,4 +1,4 @@
-<footer class="page-footer">
+<footer class="page-footer {{ site.footer-color }}">
     <div class="container">
       <div class="row">
         <div class="col l4 s12">
@@ -12,28 +12,28 @@
           <h5 class="white-text">Connect</h5>
           <ul>
             {% if site.github_username %}
-            <li><a href="https://github.com/{{ site.github_username }}" class="white-text text-lighten-3 btn waves-effect waves-light red lighten-3"><i class="mdi mdi-github-circle"></i></a></li>
+            <li><a href="https://github.com/{{ site.github_username }}" class="white-text text-lighten-3 btn waves-effect waves-light {{ site.footer-button-color }} lighten-3"><i class="mdi mdi-github-circle"></i></a></li>
             {% endif %}
             {% if site.googleplus_username %}
-            <li><a href="https://plus.google.com/+{{ site.googleplus_username }}" class="white-text text-lighten-3 btn waves-effect waves-light red lighten-3"><i class="mdi mdi-google-plus"></i></a></li>
+            <li><a href="https://plus.google.com/+{{ site.googleplus_username }}" class="white-text text-lighten-3 btn waves-effect waves-light {{ site.footer-button-color }} lighten-3"><i class="mdi mdi-google-plus"></i></a></li>
             {% endif %}
             {% if site.twitter_username %}
-            <li><a href="https://twitter.com/{{ site.twitter_username }}" class="white-text text-lighten-3 btn waves-effect waves-light red lighten-3"><i class="mdi mdi-twitter"></i></a></li>
+            <li><a href="https://twitter.com/{{ site.twitter_username }}" class="white-text text-lighten-3 btn waves-effect waves-light {{ site.footer-button-color }} lighten-3"><i class="mdi mdi-twitter"></i></a></li>
             {% endif %}
           </ul>
         </div>
-        
+
         <!--
         <div class="col l4 s12">
           <h5 class="white-text">Link exchange</h5>
         </div>
         -->
-        
+
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-        Copyright © {{ site.author }}, under<a class="pink-text text-darken-2" href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> Powered by <a class="pink-text text-darken-2" href="http://jekyllrb.com/">Jekyll</a>
+        Copyright © {{ site.author }}, under<a class="{{ site.footer-link-color }}" href="https://creativecommons.org/licenses/by-sa/4.0/"> CC BY-SA 4.0</a> Powered by <a class="{{ site.footer-link-color }}" href="http://jekyllrb.com/">Jekyll</a>
         <a class="grey-text text-lighten-4 right waves-effect waves-green hide-on-small-only" href="{{ '/about' | prepend: site.baseurl }}" style="padding: 0px 8px 0px 8px;">Contact me</a>
       </div>
     </div>

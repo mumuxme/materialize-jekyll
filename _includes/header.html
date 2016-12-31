@@ -1,22 +1,38 @@
 <header class="site-header">
-  <nav><div class="nav-wrapper">
+<div class="navbar-fixed">
+  <nav class="{{ site.header-color }}"><div class="nav-wrapper">
+    <span class="site-title ">{{ site.title }}</span>
 
-    <a href="{{ '/' | prepend: site.baseurl }}" class="brand-logo waves-effect waves-light"><i class="mdi mdi-home white-text"></i></a>
-    <span class="site-title hide-on-med-and-down">{{ site.title }}</span>
-
+    <!-- NavList -->
     <ul class="right hide-on-med-and-down nav-list">
-      <li class="waves-effect waves-light"><a href="{{ '/category' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-folder-multiple left"></i>Category</a></li>
-      <li class="waves-effect waves-light"><a href="{{ '/about' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-account left"></i>About</a></li>
-      <li class="waves-effect waves-light"><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-rss left"></i>RSS</a></li>
+      <li class="waves-effect waves-light"><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-rss"></i></a></li>
     </ul>
 
-    <!-- medium and down -->
+    <!-- SideNav -->
     <ul id="slide-out" class="side-nav">
-      <li><a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">Category</a></li>
-      <li><a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">About</a></li>
-      <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">RSS</a></li>
+      <li>
+        <a href="{{ '/' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            <i class="mdi mdi-home left green-text" style="line-height: 64px;"></i>Home
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            <i class="mdi mdi-account-circle left blue-text" style="line-height: 64px;"></i>About
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            <i class="mdi mdi-folder-multiple left yellow-text text-darken-1" style="line-height: 64px;"></i>Category
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            <i class="mdi mdi-rss left red-text" style="line-height: 64px;"></i>RSS
+        </a>
+      </li>
     </ul>
-    <a href="" data-activates="slide-out" class="button-collapse"><i class="mdi mdi-menu white-text"></i></a>
+    <a href="" data-activates="slide-out" class="button-collapse waves-effect waves-light" style="display: block;"><i class="mdi mdi-menu white-text"></i></a>
 
   </div></nav>
+</div>
 </header>

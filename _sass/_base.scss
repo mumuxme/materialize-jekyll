@@ -139,17 +139,18 @@ blockquote {
 /**
  * Code formatting
  */
+
 pre,
 code {
     font-family: $code-font-family;
-    color: #000;
     border-radius: 3px;
-    background-color: #c8e6c9;
 }
 
 code {
     font-size: .9rem;
     padding: 1px 5px;
+    background-color: #e8e8e9;
+    color: #333388;
 }
 
 pre {
@@ -157,9 +158,12 @@ pre {
     //overflow-x: scroll;
     font-size: 1rem;
     border: 1px solid $grey-light;
+    background-color: #c8e6c9;
 
     > code {
-        font-size: 1rem;        
+        font-size: inherit;
+        color: inherit;
+        background-color: inherit;      
         border: 0;
         padding-right: 0;
         padding-left: 0;

@@ -12,6 +12,7 @@ title: Your blog
 baseurl: ""    # the subpath of your site, "/blog"
 url: ""
 
+# footer 
 description: "I know that what I'm doing looks stupid, but I'm a big boy and really want to do this."
 
 favo: "春梦随云散，飞花逐水流"
@@ -45,7 +46,22 @@ gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
 
 
 #
-# commentted option
+# Custom
 #
 
+# Color
+# All css class, see: http://materializecss.com/color.html
+header-color: "indigo lighten-1"
+head-theme-color: "#5c6bc0"     # MUST in hex format, may the same as header-color. This color is for android chrome.
+
+footer-color: "indigo"
+footer-button-color: "indigo lighten-2"
+footer-link-color: "red-text text-accent-1"
+
+share-button-color: "pink"
+share-button-small-color: ""
+
+
+##
 #excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
+

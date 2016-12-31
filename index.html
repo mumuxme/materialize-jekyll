@@ -20,7 +20,7 @@ layout: default
         <span class="grey-text right">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
-        <button data-target="{{ post.id | remove: '%' | replace: '/', '_' }}" class="waves-effect waves-light btn modal-trigger">Overview</button>
+        <button data-target="{{ post.id | remove: '%' | replace: '/', '_' }}" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">overview<i class="mdi mdi-send right"></i></button>
 
         <div id="{{ post.id | remove: '%' | replace: '/', '_' }}" class="modal modal-fixed-footer">
           <div class="modal-content">
