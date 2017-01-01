@@ -3,35 +3,48 @@
   <nav class="{{ site.header-color }}"><div class="nav-wrapper">
     <span class="site-title ">{{ site.title }}</span>
 
+    {% comment %}
     <!-- NavList -->
+    <!--
     <ul class="right hide-on-med-and-down nav-list">
       <li class="waves-effect waves-light"><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="white-text"><i class="mdi mdi-rss"></i></a></li>
     </ul>
+    -->
+    {% endcomment %}
 
     <!-- SideNav -->
-    <ul id="slide-out" class="side-nav">
+    <ul id="slide-out" class="side-nav fixed">
+      <li><div class="userView">
+        <div class="background">
+          <img src="{{ '/assets/bg.jpg' | prepend: site.baseurl | prepend: site.url }}">
+        </div>
+        <img class="circle" src="{{ '/assets/avatar.jpg' | prepend: site.baseurl | prepend: site.url }}">
+        <span class="white-text name">{{ site.head-title }}</span>
+      </div></li>
       <li>
         <a href="{{ '/' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-home left green-text" style="line-height: 64px;"></i>Home
+            <i class="mdi mdi-home left green-text"></i>Home
         </a>
       </li>
       <li>
         <a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-account-circle left blue-text" style="line-height: 64px;"></i>About
+            <i class="mdi mdi-account-circle left blue-text"></i>About
         </a>
       </li>
       <li>
         <a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-folder-multiple left yellow-text text-darken-1" style="line-height: 64px;"></i>Category
+            <i class="mdi mdi-folder-multiple left yellow-text text-darken-1"></i>Category
         </a>
       </li>
       <li>
         <a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
-            <i class="mdi mdi-rss left red-text" style="line-height: 64px;"></i>RSS
+            <i class="mdi mdi-rss left red-text"></i>RSS
         </a>
       </li>
     </ul>
-    <a href="" data-activates="slide-out" class="button-collapse waves-effect waves-light" style="display: block;"><i class="mdi mdi-menu white-text"></i></a>
+    <a data-activates="slide-out" class="button-collapse waves-effect waves-light" style="margin:0; padding: 0 16px;">
+      <i class="mdi mdi-menu white-text"></i>
+    </a>
 
   </div></nav>
 </div>

@@ -33,6 +33,37 @@
 
 
 /**
+ * Container and width
+ */
+
+// offset content to get well with side menu
+header, footer, {
+    padding-left: 240px;
+}
+.home {padding-left: 200px; }
+.post-container { padding-left: 100px; }
+.page-container { padding-left: 160px; }
+
+@media only screen and (max-width : 992px) {
+    header, .home, .post-container, .page-container, footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .home { width: 80%; }
+    .page-container { width: 78%; }
+}
+
+.post-container,
+.page-container {
+    @media #{$small-and-down} {
+        width: 100%;
+    }
+}
+
+
+/**
  * Site header
  */
 .site-title {
@@ -47,15 +78,23 @@
     }
 }
 
+/*
 .brand-logo {
     padding: 0 10px !important;
 }
 
-/* replace(broken) materialize css default style */
+// replace(broken) materialize css default style
 //.site-header {
     .side-nav li { padding: 0 0; }
     .side-nav a { padding: 0 26px; }
 //}
+*/
+
+// May bug, see:
+// https://github.com/Dogfalo/materialize/issues/2879
+#sidenav-overlay {
+    z-index: 996;
+}
 
 
 /**
@@ -164,13 +203,7 @@
     width: 100%;
 }
 
-.post-container {
-    @media #{$small-and-down} {
-        width: 100%;
-    }
-}
-
-.post {
+.post-page {
     margin-top: -35vh;
     flex-shrink: 0;
     min-height: 800px;
@@ -180,8 +213,8 @@
     }
 
     @media #{$small-and-down} {
-        // remove z-depth for mobile
-        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+        // remove z-depth-2 for mobile
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
     }
 }
 
@@ -212,7 +245,7 @@
     margin: 2.1rem 0 1.68rem;
 
     @media #{$medium-and-down} {
-        font-size: 36px;
+        font-size: 2rem;
     }
 }
 
