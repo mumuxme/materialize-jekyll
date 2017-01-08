@@ -2,7 +2,8 @@
  * Init javascript
  */
 
-// material scrolltop
+/* Material scrolltop */
+
 $(document).ready(function() {
   $('body').materialScrollTop({
     revealElement: 'header',
@@ -13,20 +14,8 @@ $(document).ready(function() {
   });
 });
 
-// table of content(toc) scroll to
-$(document).ready(function() {
-  $('.link-toc').click(function(){
-    $('html, body').animate({
-      scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
-  });
-});
 
-
-/**
- * Materialize
- */
+/* Materialize */
 
 // modal
 $(document).ready(function(){
@@ -49,15 +38,18 @@ $(document).ready(function(){
 
 // scrollspy
 $(document).ready(function(){
-  $('.scrollspy').scrollSpy();
+  $('.scrollspy').scrollSpy({
+    scrollOffset: 150,
+  });
 });
 
-// Initialize collapse button
+// SideNav
 $(".button-collapse").sideNav({
     menuWidth: 240,
     //edge: 'right', // Choose the horizontal origin
     closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
 });
+$(".button-collapse").off("click").sideNav();
 // Initialize collapsible (uncomment the line below if you use the dropdown variation)
 //$('.collapsible').collapsible();
-$(".button-collapse").off("click").sideNav();
+

@@ -1,8 +1,6 @@
-#
 # Fork from https://github.com/dafi/jekyll-toc-generator
 #
 # modify by mumu <github.com/mumuxme>
-#
 
 
 require 'nokogiri'
@@ -88,7 +86,7 @@ module Jekyll
 
         anchor_id = anchor_prefix + toc_level.to_s + '-' + toc_section.to_s;
         tag['id'] = "#{anchor_id}"
-
+        tag['class'] = 'section scrollspy'      # For materialize scrollspy
         toc_html += create_level_html(anchor_id,
                                       toc_level,
                                       toc_section,
