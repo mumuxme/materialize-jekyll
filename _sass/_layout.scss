@@ -11,7 +11,7 @@
     background-color: $teal-accent;
 }
 
-// Check
+/* Check */
 .notice-warning {
     background-color: #E91E63;
     color: #fff;
@@ -26,7 +26,7 @@
     z-index: 10;
 }
 
-// Helper
+/* Helper */
 .lower-case { text-transform: lowercase; }
 .upper-case { text-transform: uppercase; }
 .capitalize { text-transform: capitalize; }
@@ -41,7 +41,7 @@ header, footer, {
     padding-left: 240px;
 }
 .home {padding-left: 200px; }
-.post-container { padding-left: 140px; }
+.post-container { padding-left: 120px; }
 .page-container { padding-left: 160px; }
 
 @media only screen and (max-width : 992px) {
@@ -51,7 +51,8 @@ header, footer, {
 }
 
 @media only screen and (min-width: 993px) {
-    .home { width: 80%; }
+    .home { width: 78%; }
+    .post-container { width: 74%; }
     .page-container { width: 78%; }
 }
 
@@ -76,6 +77,13 @@ header, footer, {
         font-size: 24px;
         margin-left: 20px;
     }
+}
+
+// FIXME: offsetting html anchor to adjust for fixed header
+a.footnote,
+a.reversefootnote {
+    padding-top: 80px;
+    margin-top: -80px;
 }
 
 /*
@@ -271,7 +279,8 @@ header, footer, {
 
     h4 {
         color: #105a98;
-        font-size: 1.4rem;
+        font-family: $code-font-family;
+        font-size: 1.3rem;
         margin: 1.68rem 0 1rem;
 
         @media #{$medium-and-down} {
