@@ -98,8 +98,9 @@ a.reversefootnote {
 //}
 */
 
-// May bug, see:
-// https://github.com/Dogfalo/materialize/issues/2879
+/* May bug, see:
+ * https://github.com/Dogfalo/materialize/issues/2879
+ */
 #sidenav-overlay {
     z-index: 996;
 }

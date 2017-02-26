@@ -95,7 +95,9 @@ li {
 /* Links */
 
 a {
-    color: darken($blue, 10%);
+    //color: darken($blue, 10%);
+    color: #00BCD4;
+
     text-decoration: none;
 
     &:visited {
