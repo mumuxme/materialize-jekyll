@@ -5,9 +5,28 @@
 
   <body>
 
-    {% include header.html %}
+    <header class="site-header">
+      <nav class="nav-extended {{ site.header-color }}">
+        {% include navbar.html %}
 
-    <div class="site-container"> 
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a class="active" href="#tab-main">main</a></li>
+          {% for t in site.data.tabs %}
+            <li class="tab"><a href="#{{ t.id }}">{{ t.name }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+  {% for t in site.data.tabs %}
+    <div id="{{ t.id }}">
+      {% include {{ t.fp }} %}
+    </div>
+  {% endfor %}
+
+    <div class="site-container" id="tab-main"> 
       <div class="wrapper">
         {{ content }}
       </div>
@@ -18,10 +37,8 @@
     <!-- scrolltop button -->
     <button class="material-scrolltop waves-effect waves-light hide-on-small-only" type="button"><i class="mdi mdi-arrow-up-bold small white-text"></i></button>
 
-
     <!-- jquery -->
     <script type="text/javascript" src="{{ '/lib/jquery-min.js' | prepend: site.baseurl }}"></script>
-
     <!-- materialize -->
     <script src="{{ '/lib/materialize/js/materialize.min.js' | prepend: site.baseurl }}"></script>
     <!-- Material ScrollTop plugin -->

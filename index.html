@@ -44,7 +44,7 @@ layout: default
     <span class="btn disabled left"><i class="mdi mdi-chevron-left white-text"></i></span>
     {% endif %}
 
-    <div class="waves-effect waves-orange btn-flat lower-case page">Page: <span class="pink-text">{{ paginator.page }}</span> of {{ paginator.total_pages }}</div>
+    <div class="waves-effect btn-flat lower-case page">Page: <span class="pink-text">{{ paginator.page }}</span> of {{ paginator.total_pages }}</div>
 
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="waves-effect waves-light btn cyan right"><i class="mdi mdi-chevron-right white-text"></i></a>

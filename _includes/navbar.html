@@ -1,0 +1,33 @@
+<div class="nav-wrapper">
+      <span class="site-title">{{ site.title }}</span>
+      <a href="#" data-activates="mobile-navbar" class="button-collapse"><i class="mdi mdi-menu white-text"></i></a>
+      
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="{{ '/' | prepend: site.baseurl }}" class="waves-effect waves-light white-text">
+            <i class="mdi mdi-home left indigo-text text-lighten-3"></i>Home
+        </a></li>
+        <li><a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-light white-text">
+            <i class="mdi mdi-account-circle left indigo-text text-lighten-3"></i>About
+        </a></li>
+        <li><a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-light white-text">
+            <i class="mdi mdi-folder-multiple left indigo-text text-lighten-3"></i>Category
+        </a></li>
+        <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-light white-text">
+            <i class="mdi mdi-rss left indigo-text text-lighten-3"></i>RSS
+        </a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-navbar">
+        <li><a href="{{ '/' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            <i class="mdi mdi-home left green-text"></i>Home
+        </a></li>
+        <li><a href="{{ '/about' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            <i class="mdi mdi-account-circle left blue-text"></i>About
+        </a></li>
+        <li><a href="{{ '/category' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            <i class="mdi mdi-folder-multiple left yellow-text text-darken-1"></i>Category
+        </a></li>
+        <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="waves-effect waves-teal black-text">
+            <i class="mdi mdi-rss left red-text"></i>RSS
+        </a></li>
+      </ul>
+</div>

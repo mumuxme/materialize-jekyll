@@ -4,24 +4,23 @@ Materialize - jekyll
 
 ## Introducton
 
-This jekyll theme is based on [materialize](http://materializecss.com). It's simple, static and following material design.
+This jekyll theme is based on [materialize](http://materializecss.com).
+(NOTE: this theme is only made for my own, but you can modify it freely.)
 
 [Open demo](https://mumuxme.github.io/materialize-jekyll/)
 
 
 ## Getting start
 
-For debian/linux
-
 #### Dependencies
 
-You may need some dev headers:
+You may need some dev headers, for debian/linux, just run:
 
 ```
 # apt-get install liblzma-dev zlib1g-dev
 ```
 
-(Other dependencies may also needed. If any questions, feel free to open an issue.)
+(Other dependencies may also needed.)
 
 #### Install
 
@@ -33,7 +32,7 @@ $ bundle install
 
 #### Run
 
-1. Modify `_config.yml` and `about.md`.
+1. Modify `_config.yml`, `about.md` and other(wherever you need).
 2. You can add a `favicon.ico` file in the project root directory.
 3. If you want to use google analytics, add your `google-analytics.js` into `js` directory.
 
@@ -47,18 +46,16 @@ $ bundle exec jekyll s --drafts
 ```
 
 
-## Features
+## Other
 
 #### Emoji
 
 You can use GitHub-flavored emoji. See [emoji cheat sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
+#### TODO
 
-## TODO
-
-- Add comment.
+- Add comment. (???)
 - Add options to choose self host or cdn.
-- Add dark theme.
 
 
 ## License

@@ -36,6 +36,7 @@
  * Container and width
  */
 
+/*
 // offset content to get well with side menu
 header, footer, {
     padding-left: 240px;
@@ -43,6 +44,7 @@ header, footer, {
 .home {padding-left: 200px; }
 .post-container { padding-left: 120px; }
 .page-container { padding-left: 160px; }
+*/
 
 @media only screen and (max-width : 992px) {
     header, .home, .post-container, .page-container, footer {
@@ -51,9 +53,9 @@ header, footer, {
 }
 
 @media only screen and (min-width: 993px) {
-    .home { width: 78%; }
-    .post-container { width: 74%; }
-    .page-container { width: 78%; }
+    .home { width: 68%; }
+    .post-container { width: 72%; }
+    .page-container { width: 72%; }
 }
 
 .post-container,

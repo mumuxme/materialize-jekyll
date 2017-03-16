@@ -35,7 +35,7 @@ kramdown:
   auto_ids:  true
 
 sass:
-    style: compressed
+  style: compressed
 
 permalink: /posts/:categories/:title.html
 
@@ -54,7 +54,7 @@ gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
 header-color: "indigo lighten-1"
 head-theme-color: "#5c6bc0"     # MUST in hex format, may the same as header-color. This color is for android chrome.
 
-footer-color: "indigo"
+footer-color: "indigo lighten-1"
 footer-button-color: "indigo lighten-2"
 footer-link-color: "red-text text-accent-1"
 
