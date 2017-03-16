@@ -175,6 +175,19 @@ a.reversefootnote {
 
 
 /**
+ */
+.tab-section {
+    @media #{$small-and-down} {
+        //padding: 70px 0px;
+    }
+    @media #{$medium-and-up} {
+        padding: 10px 56px;
+        margin-bottom: 60px;
+    }
+}
+
+
+/**
  * Category
  */
 .post-category {
