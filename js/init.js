@@ -1,6 +1,3 @@
-/**
- * Init javascript
- */
 
 /* Material scrolltop */
 
@@ -28,7 +25,7 @@ $(document).ready(function(){
   $('.post-toc').dropdown({
     inDuration: 300,
     outDuration: 225,
-    constrain_width: true,
+    constrainWidth: false,
     hover: true,
     gutter: 0,
     belowOrigin: false,
@@ -52,4 +49,6 @@ $(".button-collapse").sideNav({
 $(".button-collapse").off("click").sideNav();
 // Initialize collapsible (uncomment the line below if you use the dropdown variation)
 //$('.collapsible').collapsible();
+
+
 
