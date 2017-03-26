@@ -70,7 +70,7 @@ header, footer, {
  * Site header
  */
 .site-title {
-    font-family: $site-title-font-family;
+    font-family: $site-title-font;
     letter-spacing: -1px;
     margin-bottom: 0;
     font-size: 18px;
@@ -82,11 +82,13 @@ header, footer, {
 }
 
 // FIXME: offsetting html anchor to adjust for fixed header
+/*
 a.footnote,
 a.reversefootnote {
     padding-top: 80px;
     margin-top: -80px;
 }
+*/
 
 /*
 .brand-logo {
@@ -130,6 +132,7 @@ a.reversefootnote {
 }
 
 .post-link {
+    font-family: $list-link-font;
     display: block;
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -196,8 +199,13 @@ a.reversefootnote {
         list-style-type: none !important;
     }
 
+    .collapsible-body {
+        padding: 1rem;
+    }
+
     @media #{$medium-and-up} {
         .category-link {
+            /*
             transition: padding-left 0.25s;
             -webkit-transition: padding-left 0.25s;
             -moz-transition: padding-left 0.25s;
@@ -206,6 +214,7 @@ a.reversefootnote {
             &:hover {
                 padding-left: 12px;
             }
+            */
         }
     }
 
@@ -264,7 +273,8 @@ a.reversefootnote {
 
 /* post title (head 1) */
 .post-title {
-    //color: rgba(0, 0, 0, 0.66);
+    font-family: $head-font;
+    color: rgba(0, 0, 0, 0.76);
     font-size: 2rem;
     margin: 2.1rem 0 1.68rem;
 
@@ -278,7 +288,7 @@ a.reversefootnote {
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-family: $head-font-family;
+        font-family: $head-font;
         font-size: 1.8rem;
         color: #ee6e73;
         margin: 2.78rem 0 1.224rem;
@@ -295,8 +305,8 @@ a.reversefootnote {
 
     h4 {
         color: #105a98;
-        font-family: $code-font-family;
-        font-size: 1.3rem;
+        font-family: $head-font;
+        font-size: 1.4rem;
         margin: 1.68rem 0 1rem;
 
         @media #{$medium-and-down} {

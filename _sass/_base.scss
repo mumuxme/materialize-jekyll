@@ -114,6 +114,7 @@ a {
 /* Blockquotes */
 
 blockquote {
+    font-family: $code-font-family;
     background-color: lighten($grey, 30%);
     border-left: 4px solid #ee6e73;
     padding-left: $spacing-unit / 2;

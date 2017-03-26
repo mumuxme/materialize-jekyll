@@ -8,11 +8,12 @@
 //
 
 // All import font can be found in `_sass/_lib.scss`
-$base-font-family: 'Delius', Helvetica, Arial, sans-serif;
+$base-font-family: /* 'Source_Sans_Pro', */ 'Delius', Helvetica, Arial, sans-serif;
 $code-font-family: "DejaVu Sans Mono", "Monospace", 'Source Code Pro';
-$head-font-family: 'Delius';
-$site-title-font-family: "DejaVu Sans Mono", 'Source Code Pro';
 
+$site-title-font: "DejaVu Sans Mono", 'Source Code Pro';
+$head-font: 'Delius';           // post h1, h2 and h4
+$list-link-font: 'Delius';      // home page
 
 $base-font-size:   1rem; //16px;
 $small-font-size:  $base-font-size * 0.875;

@@ -1,7 +1,9 @@
 /**
  * font
  */
-@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 
 // Delius
 @font-face {
@@ -19,22 +21,20 @@
     font-style: normal;
 }
 
-// Cantarell
-/*
+// Source_Sans_Pro
 @font-face {
-    font-family: 'cantarell_web';
-    src: url('../lib/font/cantarell/Cantarell-Regular.otf') format('opentype');
+    font-family: 'Source_Sans_Pro';
+    src: url('../lib/font/Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'cantarell_web';
-    src: url('../lib/font/cantarell/Cantarell-Bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: nomal;
+    font-family: 'Source_Sans_Pro';
+    src: url('../lib/font/Source_Sans_Pro/SourceSansPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
-*/
 
 
 /**
