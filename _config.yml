@@ -52,7 +52,7 @@ gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
 # Color
 # All css class, see: http://materializecss.com/color.html
 header-color: "indigo lighten-1"
-head-theme-color: "#5c6bc0"     # MUST in hex format, may the same as header-color. This color is for android chrome.
+head-theme-color: "#5c6bc0"     # MUST in hex format, may the same as header-color. This color is for android chrome browser.
 
 footer-color: "indigo lighten-1"
 footer-button-color: "indigo lighten-2"
