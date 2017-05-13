@@ -1,7 +1,0 @@
-# Ignore everything
-*
-
-# except
-!.gitignore
-!test.html
-!test1.html

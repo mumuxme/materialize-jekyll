@@ -1,0 +1,23 @@
+FROM debian:stretch
+
+
+RUN deps='liblzma-dev zlib1g-dev ruby ruby-bundler ruby-dev' \
+    && apt-get update \
+    && apt-get install -y gcc make \
+    && apt-get install -y $deps
+
+
+ARG GEM_MIRROR=mirror.https://rubygems.org
+ENV GEM_MIRROR ${GEM_MIRROR}
+
+COPY Gemfile* /tmp/
+WORKDIR /tmp
+RUN bundle config mirror.https://rubygems.org ${GEM_MIRROR} \
+    && bundle install
+
+
+ADD . /materialize-jekyll
+WORKDIR /materialize-jekyll
+
+
+EXPOSE 4000
