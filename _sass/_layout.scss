@@ -36,16 +36,6 @@
  * Container and width
  */
 
-/*
-// offset content to get well with side menu
-header, footer, {
-    padding-left: 240px;
-}
-.home {padding-left: 200px; }
-.post-container { padding-left: 120px; }
-.page-container { padding-left: 160px; }
-*/
-
 @media only screen and (max-width : 992px) {
     header, .home, .post-container, .page-container, footer {
         padding-left: 0;
@@ -193,6 +183,7 @@ a.reversefootnote {
 /**
  * Category
  */
+
 .post-category {
     ul li {
         margin-top: 8px;
@@ -273,7 +264,7 @@ a.reversefootnote {
 
 /* post title (head 1) */
 .post-title {
-    font-family: $head-font;
+    font-family: $post-title-font;
     color: rgba(0, 0, 0, 0.76);
     font-size: 2rem;
     margin: 2.1rem 0 1.68rem;

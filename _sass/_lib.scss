@@ -1,11 +1,9 @@
-/**
- * font
- */
+// Font
 
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@each $google-font in $google-fonts {
+    @import url('https://fonts.googleapis.com/css?family=' + $google-font);
+}
 
-
-// Delius
 @font-face {
     font-family: 'Delius';
     src: url('../lib/font/Delius/Delius-Regular.ttf') format('truetype');
@@ -13,7 +11,6 @@
     font-style: normal;
 }
 
-// Delius_Swash_Caps
 @font-face {
     font-family: 'Delius_Swash_Caps';
     src: url('../lib/font/Delius_Swash_Caps/DeliusSwashCaps-Regular.ttf') format('truetype');
@@ -21,25 +18,9 @@
     font-style: normal;
 }
 
-// Source_Sans_Pro
-@font-face {
-    font-family: 'Source_Sans_Pro';
-    src: url('../lib/font/Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'Source_Sans_Pro';
-    src: url('../lib/font/Source_Sans_Pro/SourceSansPro-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
+// Material scrolltop
 
-
-/**
- * material scrolltop
- */
 .material-scrolltop {
     background-color: #ff4081 !important;
     display: block;
@@ -82,9 +63,8 @@
 }
 
 
-/**
- * table of content plugin
- */
+// table of content plugin
+
 #toc-container {
     position: fixed;
     bottom: 0px;
