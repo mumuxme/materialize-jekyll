@@ -51,9 +51,8 @@ cd materialize-jekyll
 # export GEM_MIRROR=mirror.https://rubygems.org
 export GEM_MIRROR='Your-ruby-gem-mirror'
 
-./build-image.sh
-
-./run.sh
+make build
+make run
 ```
 
 
