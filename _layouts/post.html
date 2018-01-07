@@ -14,7 +14,11 @@ layout: default
       &nbsp;&nbsp;<i class="mdi mdi-account-circle"></i>&nbsp;
       {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
       &nbsp;&nbsp;<i class="mdi mdi-label"></i>&nbsp;
-      {% if page.categories %}<span class="capitalize">{{ page.categories }}</span>{% else %}unknown{% endif %}
+      <span class="capitalize">
+        {% if page.categories %}{% for category in page.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+        {% else %}unknown
+        {% endif %}
+      </span>
       &emsp;<i class="mdi mdi-refresh"></i>&nbsp;UPDATE: {% if page.update %}{{ page.update | date: "%b %-d, %Y" }}{% else %}{{ page.last_modified_at | date: "%b %-d, %Y" }}{% endif %}
     </p>
 
