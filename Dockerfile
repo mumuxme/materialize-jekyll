@@ -3,7 +3,7 @@ FROM debian:stretch
 
 RUN deps='liblzma-dev zlib1g-dev ruby ruby-bundler ruby-dev' \
     && apt-get update \
-    && apt-get install -y gcc make \
+    && apt-get install -y gcc g++ make \
     && apt-get install -y $deps
 
 
