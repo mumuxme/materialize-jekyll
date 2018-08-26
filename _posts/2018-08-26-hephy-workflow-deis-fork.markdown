@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Hephy Workflow: the Deis Fork
+title:  "Hephy Workflow: the Deis Fork"
 date:   2018-08-26
 category: "announcements"
 tags: [blog, 2018]
