@@ -1,13 +1,13 @@
 # Site settings
 
-author: Yourname
-email: example@email.com
-twitter_username: twitter
-github_username:  github
-googleplus_username: google
+author: Team Hephy
+email: team@teamhephy.com
+twitter_username: teamhephy
+github_username:  teamhephy
+# googleplus_username: hahah
 
-head-title: Your blog
-title: Your blog
+head-title: Team Hephy blog
+title: Team Hephy blog
 
 baseurl: "/materialize-jekyll"    # the subpath of your site, "/blog"
 url: ""
