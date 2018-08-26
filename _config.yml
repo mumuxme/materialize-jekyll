@@ -4,19 +4,19 @@ author: Team Hephy
 email: team@teamhephy.com
 twitter_username: teamhephy
 github_username:  teamhephy
-# googleplus_username: hahah
+slack_inviter_url: https://slack.teamhephy.com
 
-head-title: Team Hephy blog
-title: Team Hephy blog
+head-title: Team Hephy blogsite
+title: Team Hephy
 
-baseurl: "/materialize-jekyll"    # the subpath of your site, "/blog"
+baseurl: "/blog"    # the subpath of your site, "/blog"
 url: ""
 
 # footer 
-description: "I know that what I'm doing looks stupid, but I'm a big boy and really want to do this."
+description: "Hephy Workflow is the open source fork of Deis Workflow."
 
-favo: "春梦随云散，飞花逐水流"
-descrpt: "“巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟”  ——《南华经》"
+favo: "Team Hephy blogsite comes online"
+descrpt: "**Deis Workflow** is an open source Platform as a Service (PaaS) that adds a developer-friendly layer to any [Kubernetes][k8s-home] cluster, making it easy to deploy and manage applications."
 
 
 #
