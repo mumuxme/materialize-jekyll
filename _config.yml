@@ -13,10 +13,10 @@ baseurl: "/blog"    # the subpath of your site, "/blog"
 url: "https://blog.teamhephy.info/blog/"
 
 # footer 
-description: "Hephy Workflow is the open source fork of Deis Workflow."
+description: Hephy Workflow is the open source fork of Deis Workflow.
 
-favo: "Team Hephy blogsite comes online"
-descrpt: "**Deis Workflow** is an open source Platform as a Service (PaaS) that adds a developer-friendly layer to any [Kubernetes][k8s-home] cluster, making it easy to deploy and manage applications."
+favo: Team Hephy blogsite comes online
+descrpt: Deis Workflow is an open source Platform as a Service (PaaS) that adds a developer-friendly layer to any Kubernetes cluster, making it easy to deploy and manage applications.
 
 
 #
