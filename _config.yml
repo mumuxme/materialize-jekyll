@@ -10,7 +10,7 @@ head-title: Team Hephy blogsite
 title: Team Hephy
 
 baseurl: "/blog"    # the subpath of your site, "/blog"
-url: ""
+url: "https://blog.teamhephy.info/blog/"
 
 # footer 
 description: Hephy Workflow is the open source fork of Deis Workflow.
