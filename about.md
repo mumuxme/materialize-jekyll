@@ -10,15 +10,14 @@ permalink: /about/
 
 #### Introduction
 
-It is our pleasure to announce that Hephy Workflow v2.19.0 (codename: Tag-Team)
-is officially here! Hephy Workflow is the open source fork of Deis Workflow
-which was EOL by Deis Team on 03/01/2018.  The Deis Team went on to work on
-Helm and Azure at Microsoft and this open source project was forked by Team
-Hephy as Hephy Workflow.
+Hephy Workflow v2.19.0 (codename: Tag-Team) is published! Hephy Workflow is the
+open source fork of Deis Workflow which was EOL by Deis Team on 03/01/2018.
+The Deis Team moved on to work on Helm and Azure at Microsoft and this open
+source project was forked by Team Hephy as Hephy Workflow.
 
 #### Current Patch Level - v2.19.4 (latest)
 
-The v2.19.4 patch is another chart-only update of Workflow that fixes an
+The [v2.19.4][] patch is another chart-only update of Workflow that fixes an
 incompatible K8s version issue with the way that GKE reports its version in the
 Kubernetes controller API.  This release is tested and known to work with K8s
 clusters on Amazon Web Services, Google Kubernetes Engine, Azure Kubernetes
