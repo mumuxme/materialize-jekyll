@@ -1,21 +1,26 @@
 ---
 layout: page
-title: About
+title: About Team Hephy
 permalink: /about/
 ---
 
-#### Tagline
+#### Hephy Workflow is the open source fork of Deis Workflow
 
-Your tagline.
+[Hephy Workflow](https://web.teamhephy.com)
 
 #### Introduction
 
-Introduce yourself.
+Hephy Workflow v2.19.0 (codename: Tag-Team) is published! Hephy Workflow is the
+open source fork of Deis Workflow which was EOL by Deis Team on 03/01/2018.
+The Deis Team moved on to work on Helm and Azure at Microsoft and this open
+source project was forked by Team Hephy as Hephy Workflow.
 
-#### This theme
+#### Current Patch Level - v2.19.4 (latest)
 
-This [jekyll](https://jekyllrb.com) theme is based on [materialize](http://materializecss.com). For more detail, you can view the github repo: [mumuxme/materialize-jekyll](https://github.com/mumuxme/materialize-jekyll)
-
+The [v2.19.4][] patch is another chart-only update of Workflow that fixes an
+incompatible K8s version issue with the way that GKE reports its version in the
+Kubernetes controller API.  This release is tested and known to work with K8s
+clusters on <b>Amazon Web Services</b>, <b>Google Kubernetes Engine</b>, <b>Azure Kubernetes Service</b>, and <a href="https://github.com/kubernetes/minikube">Minikube</a> too.
 
 #### License
 
@@ -23,12 +28,15 @@ Copyright&nbsp;&copy;&nbsp;{{ site.author }}
 
 - - -
 
-If any <b>question</b>, please send an <b>email</b> to me or just open an <b>issue</b> on the github repository. 
+Team Hephy accepts <b>Issues</b> and <b>Pull Requests</b> from any interested contributors!  If there are any <b>questions</b> or <b>problems</b>, please reach us directly on <b><a href="https://slack.teamhephy.info">slack</a></b>
+or just open an <b>issue</b> on the <a href="https://github.com/teamhephy/workflow">github repository.</a>
 
-As for all articles(except reference) are under [CC Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), you are free to <b>share</b> and <b>adapt</b> for any purpose.
+Under [CC Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), you are free to <b>share</b> and <b>adapt</b> this document for any purpose.
 
 - - -
 
 #### Personal information
 
-Email: {{ site.email }}
+Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+
+[v2.19.4]: https://github.com/teamhephy/workflow/releases/tag/v2.19.4
