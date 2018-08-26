@@ -20,8 +20,7 @@ source project was forked by Team Hephy as Hephy Workflow.
 The [v2.19.4][] patch is another chart-only update of Workflow that fixes an
 incompatible K8s version issue with the way that GKE reports its version in the
 Kubernetes controller API.  This release is tested and known to work with K8s
-clusters on Amazon Web Services, Google Kubernetes Engine, Azure Kubernetes
-Service, and possibly others too.
+clusters on <b>Amazon Web Services</b>, <b>Google Kubernetes Engine</b>, <b>Azure Kubernetes Service</b>, and <a href="https://github.com/kubernetes/minikube">Minikube</a> too.
 
 #### License
 
