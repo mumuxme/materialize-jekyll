@@ -9,7 +9,7 @@ slack_inviter_url: https://slack.teamhephy.com
 head-title: Team Hephy blogsite
 title: Team Hephy
 
-baseurl: "/"    # the subpath of your site, "/blog"
+baseurl: "/blog"    # the subpath of your site, "/blog"
 url: "https://blog.teamhephy.info/blog/"
 
 # footer 
