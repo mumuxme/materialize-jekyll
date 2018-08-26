@@ -30,15 +30,15 @@ Copyright&nbsp;&copy;&nbsp;{{ site.author }}
 - - -
 
 Team Hephy accepts Issues and Pull Requests from interested contributors!  If
-any <b>question</b> or <b>problem</b>, please join us on <b><a href="https://slack.teamhephy.info">slack</a></b>
+any <b>questions</b> or <b>problems</b>, please reach us directly on <b><a href="https://slack.teamhephy.info">slack</a></b>
 or just open an <b>issue</b> on the <a href="https://github.com/teamhephy/workflow">github repository.</a>
 
-As for all articles(except reference) are under [CC Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), you are free to <b>share</b> and <b>adapt</b> for any purpose.
+Under [CC Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/), you are free to <b>share</b> and <b>adapt</b> for any purpose.
 
 - - -
 
 #### Personal information
 
-Email: {{ site.email }}
+Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
 [v2.19.4]: https://github.com/teamhephy/workflow/releases/tag/v2.19.4
