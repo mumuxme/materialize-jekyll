@@ -6,7 +6,7 @@ permalink: /about/
 
 #### Hephy Workflow is the open source fork of Deis Workflow
 
-[Hephy Workflow](web.teamhephy.com)
+[Hephy Workflow](https://web.teamhephy.com)
 
 #### Introduction
 
