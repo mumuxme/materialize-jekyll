@@ -9,8 +9,8 @@ slack_inviter_url: https://slack.teamhephy.com
 head-title: Team Hephy blogsite
 title: Team Hephy
 
-baseurl: "/blog"    # the subpath of your site, "/blog"
-url: "https://blog.teamhephy.info/blog"
+baseurl: ""    # the subpath of your site, "/blog"
+url: "https://blog.teamhephy.info"
 
 # footer 
 description: Hephy Workflow is the open source fork of Deis Workflow.

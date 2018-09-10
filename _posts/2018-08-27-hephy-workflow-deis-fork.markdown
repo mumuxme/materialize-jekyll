@@ -1,4 +1,5 @@
 ---
+permalink: /blog/posts/announcements/hephy-workflow-deis-fork.html
 layout: post
 title:  "Hephy Workflow: the Deis Fork"
 date:   2018-08-27
