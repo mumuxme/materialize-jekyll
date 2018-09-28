@@ -39,4 +39,9 @@ Under [CC Attribution-ShareAlike 4.0 International License](https://creativecomm
 
 Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
+##### Team:
+
+Kingdon: <a href="mailto:{{ site.maint1_mail }}">{{ site.maint1_mail }}</a><br/>
+Anton: <a href="mailto:{{ site.maint2_mail }}">{{ site.maint2_mail }}</a>
+
 [v2.19.4]: https://github.com/teamhephy/workflow/releases/tag/v2.19.4
