@@ -15,7 +15,7 @@ The tentative plan is that we will release v2.20.0 before the meeting, and the t
 
 November 1st is coming soon (2 weeks) so please join us, and try to let us know on Slack in advance if there is anything you want to put onto the agenda.
 
-Please [mark your calendars]()!
+Please [mark your calendars](https://calendar.google.com/event?action=TEMPLATE&tmeid=NTA3aGl0cHBlNmFwdmhycGd1dTMxODducGNfMjAxODExMDFUMTgwMDAwWiBrYmFycmV0OEBuZC5lZHU&tmsrc=kbarret8%40nd.edu&scp=ALL)!
 
 Thanks!
 
@@ -23,5 +23,3 @@ Thanks!
 
 <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NTA3aGl0cHBlNmFwdmhycGd1dTMxODducGNfMjAxODExMDFUMTgwMDAwWiBrYmFycmV0OEBuZC5lZHU&amp;tmsrc=kbarret8%40nd.edu&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
 
-
-[mark your calendars]: https://calendar.google.com/event?action=TEMPLATE&tmeid=NTA3aGl0cHBlNmFwdmhycGd1dTMxODducGNfMjAxODExMDFUMTgwMDAwWiBrYmFycmV0OEBuZC5lZHU&tmsrc=kbarret8%40nd.edu&scp=ALL
