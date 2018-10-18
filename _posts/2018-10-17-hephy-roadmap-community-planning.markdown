@@ -8,8 +8,8 @@ tags: [roadmap, 2018]
 ---
 
 Team Hephy's inaugural Open Roadmap Community Planning meeting is set for
-November 1.  The format will be the same familiar Zoom meeting.
-Please [mark your calendars]()!
+November 1.  The format will be the same familiar Zoom meeting.  All are
+welcome to attend.
 
 The time is set for 2:00PM EST on the first Thursday of every month.  Team
 Hephy plans on hosting these meetings regularly every month going forward,
@@ -20,6 +20,8 @@ topic of the roadmap meeting will be planning for the next v2.21 release.
 
 November 1st is coming soon (2 weeks) so please join us, and try to let us know
 on Slack in advance if there is anything you want to put onto the agenda.
+
+Please [mark your calendars]()!
 
 Thanks!
 
