@@ -15,11 +15,11 @@ The tentative plan is that we will release v2.20.0 before the meeting, and the t
 
 November 1st is coming soon (2 weeks) so please join us, and try to let us know on Slack in advance if there is anything you want to put onto the agenda.
 
-Please [mark your calendars](https://calendar.google.com/event?action=TEMPLATE&tmeid=NTA3aGl0cHBlNmFwdmhycGd1dTMxODducGNfMjAxODExMDFUMTgwMDAwWiBrYmFycmV0OEBuZC5lZHU&tmsrc=kbarret8%40nd.edu&scp=ALL)!
+Please [mark your calendars](https://calendar.google.com/event?action=TEMPLATE&tmeid=MTA5aG5qM2Zpa2NlcnZ2OXA4aHVvOTlxMzEgeWVieWVuQG0&tmsrc=yebyen%40gmail.com)!
 
 Thanks!
 
 – Kingdon
 
-<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NTA3aGl0cHBlNmFwdmhycGd1dTMxODducGNfMjAxODExMDFUMTgwMDAwWiBrYmFycmV0OEBuZC5lZHU&amp;tmsrc=kbarret8%40nd.edu&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MTA5aG5qM2Zpa2NlcnZ2OXA4aHVvOTlxMzEgeWVieWVuQG0&amp;tmsrc=yebyen%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
 
