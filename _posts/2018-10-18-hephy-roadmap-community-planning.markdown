@@ -23,5 +23,5 @@ Thanks!
 
 <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MTA5aG5qM2Zpa2NlcnZ2OXA4aHVvOTlxMzEga3FwZGgwMzM2bG5lOTkybGQzZzYwbjk2dGNAZw&amp;tmsrc=kqpdh0336lne992ld3g60n96tc%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
 
-P.S. if you are just trying to join the meeting, here is the Zoom link: https://zoom.us/j/566476564
+P.S. if you are just trying to join the meeting, here is the Zoom link: [https://zoom.us/j/566476564](https://zoom.us/j/566476564)
 
