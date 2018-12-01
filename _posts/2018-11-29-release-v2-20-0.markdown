@@ -1,0 +1,26 @@
+---
+permalink: /blog/posts/announcements/release-v2-20-0.html
+layout: post
+title:  "Release: Hephy Workflow v2.20.0"
+date:   2018-12-01
+category: "announcements"
+tags: [releases, 2018]
+---
+
+Team Hephy's second minor release Hephy Workflow v2.20 is out!  The v2.19 series ends with v2.19.4, four patch releases since v2.19.0.  The next Open Roadmap meeting will be Thursday Dec 6 at 2PM Eastern.  A Zoom meeting link is on the calendar event linked here.  The agenda is a brief recounting of the work that made the cut in the v2.20 release, as well as discussion of the goals for v2.21, the next minor release.
+
+All are welcome to attend.  Meeting time is set for 2:00PM EST on the first Thursday of every month.  Team Hephy continues the tradition of hosting these meetings regularly in the spirit of Deis Community Roadmap Planning every month, and this will probably continue unless any conflict or scheduling issue should present.
+
+
+Please join us, and let everyone know on Slack if there is something that you would like to have added onto the next meeting agenda.
+
+[Mark your calendars](https://calendar.google.com/event?action=TEMPLATE&tmeid=MTA5aG5qM2Zpa2NlcnZ2OXA4aHVvOTlxMzEga3FwZGgwMzM2bG5lOTkybGQzZzYwbjk2dGNAZw&tmsrc=kqpdh0336lne992ld3g60n96tc%40group.calendar.google.com)!
+
+Thanks!
+
+– Kingdon
+
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MTA5aG5qM2Zpa2NlcnZ2OXA4aHVvOTlxMzEga3FwZGgwMzM2bG5lOTkybGQzZzYwbjk2dGNAZw&amp;tmsrc=kqpdh0336lne992ld3g60n96tc%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+
+P.S. if you are just trying to join the meeting, here is the Zoom link: [https://zoom.us/j/566476564](https://zoom.us/j/566476564)
+
