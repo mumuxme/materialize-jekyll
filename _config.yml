@@ -8,7 +8,7 @@ twitter_username: teamhephy
 github_username:  teamhephy
 slack_inviter_url: https://slack.teamhephy.com
 
-head-title: Team Hephy blogsite
+head-title: Team Hephy Info Blog
 title: Team Hephy
 
 baseurl: ""    # the subpath of your site, "/blog"
@@ -17,8 +17,8 @@ url: "https://blog.teamhephy.info"
 # footer 
 description: Hephy Workflow is the open source fork of Deis Workflow.
 
-favo: Team Hephy resumes Open Roadmap Community Planning
-descrpt: Team Hephy now hosts Open Roadmap Community Planning meetings at 2PM Eastern Time, on the first Thursday of every month.  Hephy Workflow is an open source Platform as a Service (PaaS) that adds a developer-friendly layer to any Kubernetes cluster, making it easy to deploy and manage applications.
+favo: "Team Hephy Open Roadmap #2 – December 6, 2018"
+descrpt: Team Hephy hosts Open Roadmap Community Planning meetings at 2PM Eastern Time, on the first Thursday of every month.  Hephy Workflow is an open source Platform as a Service (PaaS) that adds a developer-friendly layer to any Kubernetes cluster, making it easy to deploy and manage applications.
 
 
 #
